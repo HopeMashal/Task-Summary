@@ -14,7 +14,7 @@ public class App
         System.out.println("\nParallelogram Area: " + parallelogram1.getArea());
 
         Rectangle rectangle1 = new Rectangle(4, 7);
-        System.out.println("\nERectangle Area: " + rectangle1.getArea());
+        System.out.println("\nRectangle Area: " + rectangle1.getArea());
 
         Sector sector1 = new Sector(45, 4);
         System.out.println("\nSector Area: " + sector1.getArea());

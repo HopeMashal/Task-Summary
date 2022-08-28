@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1.189" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1.402" tests="32" errors="0" skipped="0" failures="6">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.3.7-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\user\AppData\Local\Temp\surefire7388133400072716722\surefirebooter1621234128713014173.jar C:\Users\user\AppData\Local\Temp\surefire7388133400072716722 2022-08-29T00-08-14_040-jvmRun1 surefire15497154595017318519tmp surefire_07373714768901518800tmp"/>
+    <property name="sun.java.command" value="C:\Users\user\AppData\Local\Temp\surefire10556268799801444458\surefirebooter3102808014570493026.jar C:\Users\user\AppData\Local\Temp\surefire10556268799801444458 2022-08-29T00-26-33_212-jvmRun1 surefire12944542695296676853tmp surefire_09455635535471380870tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="c:\Users\user\OneDrive\Documents\Studying\Testing Automation Developer\Tasks\Task Summary\task_summary\target\test-classes;c:\Users\user\OneDrive\Documents\Studying\Testing Automation Developer\Tasks\Task Summary\task_summary\target\classes;C:\Users\user\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\user\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\user\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\user\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\user\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\user\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\user\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.0.0\junit-jupiter-params-5.0.0.jar;C:\Users\user\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.0.0\junit-jupiter-api-5.0.0.jar;C:\Users\user\.m2\repository\org\opentest4j\opentest4j\1.0.0\opentest4j-1.0.0.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-commons\1.0.0\junit-platform-commons-1.0.0.jar;C:\Users\user\.m2\repository\com\opencsv\opencsv\5.6\opencsv-5.6.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-text\1.9\commons-text-1.9.jar;C:\Users\user\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\user\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\user\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\user\AppData\Local\Temp\surefire7388133400072716722\surefirebooter1621234128713014173.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\user\AppData\Local\Temp\surefire10556268799801444458\surefirebooter3102808014570493026.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.3+7"/>
@@ -57,12 +57,60 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="getCircleArea" classname="task.AppTestNGTest" time="0.008"/>
+  <testcase name="getCircleArea" classname="task.AppTestNGTest" time="0.025"/>
   <testcase name="getCircleArea" classname="task.AppTestNGTest" time="0.001"/>
   <testcase name="getCircleArea" classname="task.AppTestNGTest" time="0.001"/>
   <testcase name="getCircleArea" classname="task.AppTestNGTest" time="0"/>
-  <testcase name="getEllipseArea" classname="task.AppTestNGTest" time="0.002"/>
-  <testcase name="getEllipseArea" classname="task.AppTestNGTest" time="0"/>
   <testcase name="getEllipseArea" classname="task.AppTestNGTest" time="0.001"/>
   <testcase name="getEllipseArea" classname="task.AppTestNGTest" time="0"/>
+  <testcase name="getEllipseArea" classname="task.AppTestNGTest" time="0"/>
+  <testcase name="getEllipseArea" classname="task.AppTestNGTest" time="0.001"/>
+  <testcase name="getParallelogramArea" classname="task.AppTestNGTest" time="0.002"/>
+  <testcase name="getParallelogramArea" classname="task.AppTestNGTest" time="0"/>
+  <testcase name="getParallelogramArea" classname="task.AppTestNGTest" time="0.001"/>
+  <testcase name="getParallelogramArea" classname="task.AppTestNGTest" time="0.04">
+    <failure message="expected [-4.0] but found [0.0]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [-4.0] but found [0.0]
+	at task.AppTestNGTest.getParallelogramArea(AppTestNGTest.java:61)
+]]></failure>
+  </testcase>
+  <testcase name="getRectangleArea" classname="task.AppTestNGTest" time="0.002"/>
+  <testcase name="getRectangleArea" classname="task.AppTestNGTest" time="0.001"/>
+  <testcase name="getRectangleArea" classname="task.AppTestNGTest" time="0.001"/>
+  <testcase name="getRectangleArea" classname="task.AppTestNGTest" time="0.001">
+    <failure message="expected [-4.0] but found [0.0]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [-4.0] but found [0.0]
+	at task.AppTestNGTest.getRectangleArea(AppTestNGTest.java:71)
+]]></failure>
+  </testcase>
+  <testcase name="getSectorArea" classname="task.AppTestNGTest" time="0.002"/>
+  <testcase name="getSectorArea" classname="task.AppTestNGTest" time="0"/>
+  <testcase name="getSectorArea" classname="task.AppTestNGTest" time="0"/>
+  <testcase name="getSectorArea" classname="task.AppTestNGTest" time="0"/>
+  <testcase name="getSquareArea" classname="task.AppTestNGTest" time="0.003"/>
+  <testcase name="getSquareArea" classname="task.AppTestNGTest" time="0.001">
+    <failure message="expected [1.0] but found [0.0]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [1.0] but found [0.0]
+	at task.AppTestNGTest.getSquareArea(AppTestNGTest.java:90)
+]]></failure>
+  </testcase>
+  <testcase name="getSquareArea" classname="task.AppTestNGTest" time="0"/>
+  <testcase name="getSquareArea" classname="task.AppTestNGTest" time="0"/>
+  <testcase name="getTrapezoidArea" classname="task.AppTestNGTest" time="0.002"/>
+  <testcase name="getTrapezoidArea" classname="task.AppTestNGTest" time="0.001">
+    <failure message="expected [-3.0] but found [0.0]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [-3.0] but found [0.0]
+	at task.AppTestNGTest.getTrapezoidArea(AppTestNGTest.java:101)
+]]></failure>
+  </testcase>
+  <testcase name="getTrapezoidArea" classname="task.AppTestNGTest" time="0"/>
+  <testcase name="getTrapezoidArea" classname="task.AppTestNGTest" time="0.001">
+    <failure message="expected [2.0] but found [0.0]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [2.0] but found [0.0]
+	at task.AppTestNGTest.getTrapezoidArea(AppTestNGTest.java:101)
+]]></failure>
+  </testcase>
+  <testcase name="getTriangleArea" classname="task.AppTestNGTest" time="0.002"/>
+  <testcase name="getTriangleArea" classname="task.AppTestNGTest" time="0"/>
+  <testcase name="getTriangleArea" classname="task.AppTestNGTest" time="0.001"/>
+  <testcase name="getTriangleArea" classname="task.AppTestNGTest" time="0.002">
+    <failure message="expected [-2.0] but found [0.0]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [-2.0] but found [0.0]
+	at task.AppTestNGTest.getTriangleArea(AppTestNGTest.java:111)
+]]></failure>
+  </testcase>
 </testsuite>

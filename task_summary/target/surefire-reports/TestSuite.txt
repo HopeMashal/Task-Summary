@@ -1,4 +1,28 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.189 s - in TestSuite
+Tests run: 32, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 1.402 s <<< FAILURE! - in TestSuite
+task.AppTestNGTest.getParallelogramArea  Time elapsed: 0.04 s  <<< FAILURE!
+java.lang.AssertionError: expected [-4.0] but found [0.0]
+	at task.AppTestNGTest.getParallelogramArea(AppTestNGTest.java:61)
+
+task.AppTestNGTest.getRectangleArea  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [-4.0] but found [0.0]
+	at task.AppTestNGTest.getRectangleArea(AppTestNGTest.java:71)
+
+task.AppTestNGTest.getSquareArea  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [1.0] but found [0.0]
+	at task.AppTestNGTest.getSquareArea(AppTestNGTest.java:90)
+
+task.AppTestNGTest.getTrapezoidArea  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [-3.0] but found [0.0]
+	at task.AppTestNGTest.getTrapezoidArea(AppTestNGTest.java:101)
+
+task.AppTestNGTest.getTrapezoidArea  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [2.0] but found [0.0]
+	at task.AppTestNGTest.getTrapezoidArea(AppTestNGTest.java:101)
+
+task.AppTestNGTest.getTriangleArea  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected [-2.0] but found [0.0]
+	at task.AppTestNGTest.getTriangleArea(AppTestNGTest.java:111)
+

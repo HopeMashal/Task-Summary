@@ -11,8 +11,10 @@ public class Sector implements Area {
 
   @Override
   public double getArea() {
-    Angle = ((Math.PI)/180)*Angle;
-    return 0.5*Angle*Math.pow(Radius, 2);
+    if (Angle > 0 && Radius > 0){
+      Angle = ((Math.PI)/180)*Angle;
+      return 0.5*Angle*Math.pow(Radius, 2);
+    } else return 0;
   }
 
   public double getAngle() {

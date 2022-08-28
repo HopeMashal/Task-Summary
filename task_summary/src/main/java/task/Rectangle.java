@@ -11,7 +11,8 @@ public class Rectangle implements Area {
 
   @Override
   public double getArea() {
-    return Width*Height;
+    if(Width > 0 && Height > 0) return Width*Height;
+    else return 0;
   }
 
   public double getWidth() {

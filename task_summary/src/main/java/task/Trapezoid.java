@@ -12,7 +12,8 @@ public class Trapezoid implements Area {
 
   @Override
   public double getArea() {
-    return (0.5*(BaseA+BaseB))*Height;
+    if(BaseA > 0 && BaseB > 0 && Height > 0) return (0.5*(BaseA+BaseB))*Height;
+    else return 0;
   }
 
   public double getBaseA() {

@@ -10,7 +10,8 @@ public class Circle implements Area {
 
   @Override
   public double getArea() {
-    return Math.PI*Math.pow(Radius, 2);
+    if (Radius > 0) return Math.PI*Math.pow(Radius, 2);
+    else return 0;
   }
 
   public double getRadius() {

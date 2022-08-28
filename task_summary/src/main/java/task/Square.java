@@ -10,7 +10,8 @@ public class Square implements Area {
 
   @Override
   public double getArea() {
-    return Math.pow(Length, 2);
+    if(Length > 0) return Math.pow(Length, 2);
+    else return 0;
   }
 
   public double getLength() {

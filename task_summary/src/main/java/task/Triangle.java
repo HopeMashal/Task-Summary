@@ -11,7 +11,8 @@ public class Triangle implements Area {
 
   @Override
   public double getArea() {
-    return 0.5*Base*Height;
+    if(Base > 0 && Height > 0) return 0.5*Base*Height;
+    else return 0;
   }
 
   public double getBase() {

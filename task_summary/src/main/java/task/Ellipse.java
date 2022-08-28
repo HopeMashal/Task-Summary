@@ -11,7 +11,8 @@ public class Ellipse implements Area {
 
   @Override
   public double getArea() {
-    return RadiusA*RadiusB*Math.PI;
+    if (RadiusA > 0 && RadiusB > 0) return RadiusA*RadiusB*Math.PI;
+    else return 0;
   }
 
   public double getRadiusA() {

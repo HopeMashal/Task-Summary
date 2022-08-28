@@ -11,7 +11,8 @@ public class Parallelogram implements Area {
 
   @Override
   public double getArea() {
-    return Base*Height;
+    if(Base > 0 && Height > 0) return Base*Height;
+    else return 0;
   }
 
   public double getBase() {

@@ -6,14 +6,12 @@ import org.testng.annotations.Factory;
 import org.testng.annotations.Parameters;
 
 public class FactoryClass {
-	static String CSVpath;
 
 	@Parameters({"CSVpath"})
   @Factory
 	public Object[] factoryMethod(String CSVpath) throws Exception {
-		FactoryClass.CSVpath = CSVpath;
     ContentReader reader = new ContentReader();
-		List<String[]> lines = reader.readAllLines(FactoryClass.CSVpath);
+		List<String[]> lines = reader.readAllLines(CSVpath);
 		lines.remove(0);
 		Object[] data = new Object[lines.size()];
 		int index = 0;

@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>26/6/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Aug 29 22:07:20 IDT 2022</td>
+<td>Started on:</td><td>Mon Aug 29 22:28:52 IDT 2022</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (131 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (138 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,12 +76,58 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='task.AppTestNGTest.getSquareArea()'><b>getSquareArea</b><br>Test class: task.AppTestNGTest<br>Parameters: -1</td>
+<td><div><pre>java.lang.AssertionError: LENGTHS MUST BE POSITIVE NUMBERS expected [0.0] but found [1.0]
+	at task.AppTestNGTest.getSquareArea(AppTestNGTest.java:136)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace645482568", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace645482568'><pre>java.lang.AssertionError: LENGTHS MUST BE POSITIVE NUMBERS expected [0.0] but found [1.0]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEquals(Assert.java:727)
+	at task.AppTestNGTest.getSquareArea(AppTestNGTest.java:136)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+</pre></div></td>
+<td>0</td>
+<td>task.AppTestNGTest@1f3f4916</td></tr>
+<tr>
 <td title='task.AppTestNGTest.getParallelogramArea()'><b>getParallelogramArea</b><br>Test class: task.AppTestNGTest<br>Parameters: -1, 4</td>
 <td><div><pre>java.lang.AssertionError: LENGTHS MUST BE POSITIVE NUMBERS expected [0.0] but found [-4.0]
 	at task.AppTestNGTest.getParallelogramArea(AppTestNGTest.java:107)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1859374258", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1859374258'><pre>java.lang.AssertionError: LENGTHS MUST BE POSITIVE NUMBERS expected [0.0] but found [-4.0]
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace442987331", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace442987331'><pre>java.lang.AssertionError: LENGTHS MUST BE POSITIVE NUMBERS expected [0.0] but found [-4.0]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
 	at org.testng.Assert.assertEquals(Assert.java:727)
@@ -126,8 +172,8 @@ function toggleAllBoxes() {
 <td><div><pre>java.lang.AssertionError: LENGTHS MUST BE POSITIVE NUMBERS expected [0.0] but found [-2.0]
 	at task.AppTestNGTest.getTriangleArea(AppTestNGTest.java:157)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace484589713", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace484589713'><pre>java.lang.AssertionError: LENGTHS MUST BE POSITIVE NUMBERS expected [0.0] but found [-2.0]
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1574598287", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1574598287'><pre>java.lang.AssertionError: LENGTHS MUST BE POSITIVE NUMBERS expected [0.0] but found [-2.0]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
 	at org.testng.Assert.assertEquals(Assert.java:727)
@@ -172,8 +218,8 @@ function toggleAllBoxes() {
 <td><div><pre>java.lang.AssertionError: LENGTHS MUST BE POSITIVE NUMBERS expected [0.0] but found [-3.0]
 	at task.AppTestNGTest.getTrapezoidArea(AppTestNGTest.java:147)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace752316209", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace752316209'><pre>java.lang.AssertionError: LENGTHS MUST BE POSITIVE NUMBERS expected [0.0] but found [-3.0]
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace914356853", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace914356853'><pre>java.lang.AssertionError: LENGTHS MUST BE POSITIVE NUMBERS expected [0.0] but found [-3.0]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
 	at org.testng.Assert.assertEquals(Assert.java:727)
@@ -218,8 +264,8 @@ function toggleAllBoxes() {
 <td><div><pre>java.lang.AssertionError: LENGTHS MUST BE POSITIVE NUMBERS expected [0.0] but found [-4.0]
 	at task.AppTestNGTest.getRectangleArea(AppTestNGTest.java:117)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace428566321", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace428566321'><pre>java.lang.AssertionError: LENGTHS MUST BE POSITIVE NUMBERS expected [0.0] but found [-4.0]
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2087258327", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2087258327'><pre>java.lang.AssertionError: LENGTHS MUST BE POSITIVE NUMBERS expected [0.0] but found [-4.0]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
 	at org.testng.Assert.assertEquals(Assert.java:727)
@@ -264,58 +310,12 @@ function toggleAllBoxes() {
 <td><div><pre>java.lang.AssertionError: LENGTHS MUST BE POSITIVE NUMBERS expected [0.0] but found [2.0]
 	at task.AppTestNGTest.getTrapezoidArea(AppTestNGTest.java:147)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1229161065", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1229161065'><pre>java.lang.AssertionError: LENGTHS MUST BE POSITIVE NUMBERS expected [0.0] but found [2.0]
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace195228908", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace195228908'><pre>java.lang.AssertionError: LENGTHS MUST BE POSITIVE NUMBERS expected [0.0] but found [2.0]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
 	at org.testng.Assert.assertEquals(Assert.java:727)
 	at task.AppTestNGTest.getTrapezoidArea(AppTestNGTest.java:147)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
-</pre></div></td>
-<td>0</td>
-<td>task.AppTestNGTest@1f3f4916</td></tr>
-<tr>
-<td title='task.AppTestNGTest.getSquareArea()'><b>getSquareArea</b><br>Test class: task.AppTestNGTest<br>Parameters: -1</td>
-<td><div><pre>java.lang.AssertionError: LENGTHS MUST BE POSITIVE NUMBERS expected [0.0] but found [1.0]
-	at task.AppTestNGTest.getSquareArea(AppTestNGTest.java:136)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace198099809", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace198099809'><pre>java.lang.AssertionError: LENGTHS MUST BE POSITIVE NUMBERS expected [0.0] but found [1.0]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEquals(Assert.java:727)
-	at task.AppTestNGTest.getSquareArea(AppTestNGTest.java:136)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -361,42 +361,22 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='task.AppTestNGTest.getSectorArea()'><b>getSectorArea</b><br>Test class: task.AppTestNGTest<br>Parameters: 60, 2</td>
-<td></td>
-<td>0</td>
-<td>task.AppTestNGTest@1f3f4916</td></tr>
-<tr>
-<td title='task.AppTestNGTest.getParallelogramArea()'><b>getParallelogramArea</b><br>Test class: task.AppTestNGTest<br>Parameters: 0, -1</td>
-<td></td>
-<td>0</td>
-<td>task.AppTestNGTest@1f3f4916</td></tr>
-<tr>
-<td title='task.AppTestNGTest.getRectangleArea()'><b>getRectangleArea</b><br>Test class: task.AppTestNGTest<br>Parameters: 4, 3</td>
-<td></td>
-<td>0</td>
-<td>task.AppTestNGTest@1f3f4916</td></tr>
-<tr>
-<td title='task.AppTestNGTest.getSquareArea()'><b>getSquareArea</b><br>Test class: task.AppTestNGTest<br>Parameters: 4</td>
-<td></td>
-<td>0</td>
-<td>task.AppTestNGTest@1f3f4916</td></tr>
-<tr>
-<td title='task.AppTestNGTest.getTrapezoidArea()'><b>getTrapezoidArea</b><br>Test class: task.AppTestNGTest<br>Parameters: 4, 1, 3</td>
-<td></td>
-<td>0</td>
-<td>task.AppTestNGTest@1f3f4916</td></tr>
-<tr>
-<td title='task.AppTestNGTest.getSectorArea()'><b>getSectorArea</b><br>Test class: task.AppTestNGTest<br>Parameters: 15, 1</td>
-<td></td>
-<td>0</td>
-<td>task.AppTestNGTest@1f3f4916</td></tr>
-<tr>
-<td title='task.AppTestNGTest.getTriangleArea()'><b>getTriangleArea</b><br>Test class: task.AppTestNGTest<br>Parameters: 4, 3</td>
-<td></td>
-<td>0</td>
-<td>task.AppTestNGTest@1f3f4916</td></tr>
-<tr>
 <td title='task.AppTestNGTest.getSectorArea()'><b>getSectorArea</b><br>Test class: task.AppTestNGTest<br>Parameters: 45, 4</td>
+<td></td>
+<td>0</td>
+<td>task.AppTestNGTest@1f3f4916</td></tr>
+<tr>
+<td title='task.AppTestNGTest.getParallelogramArea()'><b>getParallelogramArea</b><br>Test class: task.AppTestNGTest<br>Parameters: 3, 7</td>
+<td></td>
+<td>0</td>
+<td>task.AppTestNGTest@1f3f4916</td></tr>
+<tr>
+<td title='task.AppTestNGTest.getRectangleArea()'><b>getRectangleArea</b><br>Test class: task.AppTestNGTest<br>Parameters: 0, -1</td>
+<td></td>
+<td>0</td>
+<td>task.AppTestNGTest@1f3f4916</td></tr>
+<tr>
+<td title='task.AppTestNGTest.getSquareArea()'><b>getSquareArea</b><br>Test class: task.AppTestNGTest<br>Parameters: 3</td>
 <td></td>
 <td>0</td>
 <td>task.AppTestNGTest@1f3f4916</td></tr>
@@ -411,12 +391,22 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>task.AppTestNGTest@1f3f4916</td></tr>
 <tr>
+<td title='task.AppTestNGTest.getSectorArea()'><b>getSectorArea</b><br>Test class: task.AppTestNGTest<br>Parameters: 60, 2</td>
+<td></td>
+<td>0</td>
+<td>task.AppTestNGTest@1f3f4916</td></tr>
+<tr>
+<td title='task.AppTestNGTest.getSectorArea()'><b>getSectorArea</b><br>Test class: task.AppTestNGTest<br>Parameters: 15, 1</td>
+<td></td>
+<td>0</td>
+<td>task.AppTestNGTest@1f3f4916</td></tr>
+<tr>
 <td title='task.AppTestNGTest.getTriangleArea()'><b>getTriangleArea</b><br>Test class: task.AppTestNGTest<br>Parameters: 3, 7</td>
 <td></td>
 <td>0</td>
 <td>task.AppTestNGTest@1f3f4916</td></tr>
 <tr>
-<td title='task.AppTestNGTest.getSquareArea()'><b>getSquareArea</b><br>Test class: task.AppTestNGTest<br>Parameters: 7</td>
+<td title='task.AppTestNGTest.getSquareArea()'><b>getSquareArea</b><br>Test class: task.AppTestNGTest<br>Parameters: 4</td>
 <td></td>
 <td>0</td>
 <td>task.AppTestNGTest@1f3f4916</td></tr>
@@ -436,12 +426,17 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>task.AppTestNGTest@1f3f4916</td></tr>
 <tr>
-<td title='task.AppTestNGTest.getParallelogramArea()'><b>getParallelogramArea</b><br>Test class: task.AppTestNGTest<br>Parameters: 4, 3</td>
+<td title='task.AppTestNGTest.getParallelogramArea()'><b>getParallelogramArea</b><br>Test class: task.AppTestNGTest<br>Parameters: 0, -1</td>
 <td></td>
 <td>0</td>
 <td>task.AppTestNGTest@1f3f4916</td></tr>
 <tr>
-<td title='task.AppTestNGTest.getRectangleArea()'><b>getRectangleArea</b><br>Test class: task.AppTestNGTest<br>Parameters: 3, 7</td>
+<td title='task.AppTestNGTest.getTrapezoidArea()'><b>getTrapezoidArea</b><br>Test class: task.AppTestNGTest<br>Parameters: 3, 5, 7</td>
+<td></td>
+<td>0</td>
+<td>task.AppTestNGTest@1f3f4916</td></tr>
+<tr>
+<td title='task.AppTestNGTest.getParallelogramArea()'><b>getParallelogramArea</b><br>Test class: task.AppTestNGTest<br>Parameters: 4, 3</td>
 <td></td>
 <td>0</td>
 <td>task.AppTestNGTest@1f3f4916</td></tr>
@@ -451,7 +446,17 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>task.AppTestNGTest@1f3f4916</td></tr>
 <tr>
+<td title='task.AppTestNGTest.getTrapezoidArea()'><b>getTrapezoidArea</b><br>Test class: task.AppTestNGTest<br>Parameters: 4, 1, 3</td>
+<td></td>
+<td>0</td>
+<td>task.AppTestNGTest@1f3f4916</td></tr>
+<tr>
 <td title='task.AppTestNGTest.getCircleArea()'><b>getCircleArea</b><br>Test class: task.AppTestNGTest<br>Parameters: 4</td>
+<td></td>
+<td>0</td>
+<td>task.AppTestNGTest@1f3f4916</td></tr>
+<tr>
+<td title='task.AppTestNGTest.getSquareArea()'><b>getSquareArea</b><br>Test class: task.AppTestNGTest<br>Parameters: 7</td>
 <td></td>
 <td>0</td>
 <td>task.AppTestNGTest@1f3f4916</td></tr>
@@ -466,12 +471,7 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>task.AppTestNGTest@1f3f4916</td></tr>
 <tr>
-<td title='task.AppTestNGTest.getSquareArea()'><b>getSquareArea</b><br>Test class: task.AppTestNGTest<br>Parameters: 3</td>
-<td></td>
-<td>0</td>
-<td>task.AppTestNGTest@1f3f4916</td></tr>
-<tr>
-<td title='task.AppTestNGTest.getTrapezoidArea()'><b>getTrapezoidArea</b><br>Test class: task.AppTestNGTest<br>Parameters: 3, 5, 7</td>
+<td title='task.AppTestNGTest.getTriangleArea()'><b>getTriangleArea</b><br>Test class: task.AppTestNGTest<br>Parameters: 4, 3</td>
 <td></td>
 <td>0</td>
 <td>task.AppTestNGTest@1f3f4916</td></tr>
@@ -481,12 +481,12 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>task.AppTestNGTest@1f3f4916</td></tr>
 <tr>
-<td title='task.AppTestNGTest.getParallelogramArea()'><b>getParallelogramArea</b><br>Test class: task.AppTestNGTest<br>Parameters: 3, 7</td>
+<td title='task.AppTestNGTest.getRectangleArea()'><b>getRectangleArea</b><br>Test class: task.AppTestNGTest<br>Parameters: 4, 3</td>
 <td></td>
 <td>0</td>
 <td>task.AppTestNGTest@1f3f4916</td></tr>
 <tr>
-<td title='task.AppTestNGTest.getRectangleArea()'><b>getRectangleArea</b><br>Test class: task.AppTestNGTest<br>Parameters: 0, -1</td>
+<td title='task.AppTestNGTest.getRectangleArea()'><b>getRectangleArea</b><br>Test class: task.AppTestNGTest<br>Parameters: 3, 7</td>
 <td></td>
 <td>0</td>
 <td>task.AppTestNGTest@1f3f4916</td></tr>

@@ -95,7 +95,7 @@ public class AppJUnitTest {
     Square square1 = new Square(height);
     double ExArea=square1.getArea();
     double AcArea=Math.pow(height, 2);
-    Assert.assertEquals("LENGTHS MUST BE POSITIVE NUMBERS",ExArea,AcArea,0);
+    Assert.assertEquals("LENGTHS MUST BE POSITIVE NUMBERS",ExArea, AcArea,0);
 	}
 
   @Test

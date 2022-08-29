@@ -1,9 +1,14 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="Task Summary">
   <parameter name="CSVpath"  value="./src/files/ParamTask.csv"/>
-  <test  name = "Area Calculation">
+  <test  name = "Area Calculation - DataProvider">
     <classes>
        <class name = "task.AppTestNGTest" />
+    </classes>
+  </test>
+  <test  name = "Area Calculation - Factory">
+    <classes>
+       <class name = "task.FactoryClass" />
     </classes>
   </test>
 </suite>

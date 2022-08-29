@@ -1,5 +1,6 @@
 package task;
 
+import java.lang.reflect.Method;
 import java.util.List;
 
 import org.testng.Assert;
@@ -19,7 +20,7 @@ public class AppTestNGTest {
   }
 
   @DataProvider
-  public static Object[][] input() throws Exception{
+  public static Object[][] input(Method m) throws Exception{
     ContentReader contentReader = new ContentReader();
     List<String[]> lines = contentReader.readAllLines(AppTestNGTest.CSVpath);
     lines.remove(0);
@@ -29,11 +30,56 @@ public class AppTestNGTest {
         data[index] = line;
         index++;
     }
-    return data;
+    Object[][] CircleData = new Object[lines.size()][1];
+    for(int i=0; i < data.length; i++){
+      CircleData[i][0] = data[i][4];
+    }
+    Object[][] EllipseData = new Object[lines.size()][2];
+    for(int i=0; i < data.length; i++){
+      EllipseData[i][0] = data[i][4];
+      EllipseData[i][1] = data[i][5];
+    }
+    Object[][] ParaRectTriData = new Object[lines.size()][2];
+    for(int i=0; i < data.length; i++){
+      ParaRectTriData[i][0] = data[i][1];
+      ParaRectTriData[i][1] = data[i][3];
+    }
+    Object[][] SectorData = new Object[lines.size()][2];
+    for(int i=0; i < data.length; i++){
+      SectorData[i][0] = data[i][0];
+      SectorData[i][1] = data[i][4];
+    }
+    Object[][] SquareData = new Object[lines.size()][1];
+    for(int i=0; i < data.length; i++){
+      SquareData[i][0] = data[i][3];
+    }
+    Object[][] TrapezoidData = new Object[lines.size()][3];
+    for(int i=0; i < data.length; i++){
+      TrapezoidData[i][0] = data[i][1];
+      TrapezoidData[i][1] = data[i][2];
+      TrapezoidData[i][2] = data[i][3];
+    }
+    switch (m.getName()) {
+      case "getCircleArea": 
+        return CircleData;
+      case "getEllipseArea": 
+        return EllipseData;
+      case "getParallelogramArea": 
+      case "getRectangleArea":
+      case "getTriangleArea": 
+        return ParaRectTriData; 
+      case "getSectorArea": 
+        return SectorData;
+      case "getSquareArea": 
+        return SquareData;
+      case "getTrapezoidArea": 
+        return TrapezoidData;
+      }
+    return null;
   }
 
   @Test(dataProvider = "input")
-  public void getCircleArea(String AngleDeg,String BaseA,String BaseB,String Height,String RadiusA,String RadiusB){
+  public void getCircleArea(String RadiusA){
     double radiusA =  Double.parseDouble(RadiusA);
     Circle circle1 = new Circle(radiusA);
     double ExArea=circle1.getArea();
@@ -42,7 +88,7 @@ public class AppTestNGTest {
   }
 
   @Test(dataProvider = "input")
-  public void getEllipseArea(String AngleDeg,String BaseA,String BaseB,String Height,String RadiusA,String RadiusB){
+  public void getEllipseArea(String RadiusA,String RadiusB){
     double radiusA =  Double.parseDouble(RadiusA);
     double radiusB =  Double.parseDouble(RadiusB);
     Ellipse ellipse1 = new Ellipse(radiusA, radiusB);
@@ -52,7 +98,7 @@ public class AppTestNGTest {
   }
 
   @Test(dataProvider = "input")
-  public void getParallelogramArea(String AngleDeg,String BaseA,String BaseB,String Height,String RadiusA,String RadiusB){
+  public void getParallelogramArea(String BaseA,String Height){
     double baseA =  Double.parseDouble(BaseA);
     double height =  Double.parseDouble(Height);
     Parallelogram parallelogram1 = new Parallelogram(baseA, height);
@@ -62,7 +108,7 @@ public class AppTestNGTest {
   }
 
   @Test(dataProvider = "input")
-  public void getRectangleArea(String AngleDeg,String BaseA,String BaseB,String Height,String RadiusA,String RadiusB){
+  public void getRectangleArea(String BaseA,String Height){
     double baseA =  Double.parseDouble(BaseA);
     double height =  Double.parseDouble(Height);
     Rectangle rectangle1 = new Rectangle(baseA, height);
@@ -72,7 +118,7 @@ public class AppTestNGTest {
   }
 
   @Test(dataProvider = "input")
-  public void getSectorArea(String AngleDeg,String BaseA,String BaseB,String Height,String RadiusA,String RadiusB){
+  public void getSectorArea(String AngleDeg,String RadiusA){
     double radiusA =  Double.parseDouble(RadiusA);
     double angleDeg =  Double.parseDouble(AngleDeg);
     Sector sector1 = new Sector(angleDeg, radiusA);
@@ -82,7 +128,7 @@ public class AppTestNGTest {
   }
 
   @Test(dataProvider = "input")
-  public void getSquareArea(String AngleDeg,String BaseA,String BaseB,String Height,String RadiusA,String RadiusB){
+  public void getSquareArea(String Height){
     double height =  Double.parseDouble(Height);
     Square square1 = new Square(height);
     double ExArea=square1.getArea();
@@ -91,7 +137,7 @@ public class AppTestNGTest {
   }
 
   @Test(dataProvider = "input")
-  public void getTrapezoidArea(String AngleDeg,String BaseA,String BaseB,String Height,String RadiusA,String RadiusB){
+  public void getTrapezoidArea(String BaseA,String BaseB,String Height){
     double baseA =  Double.parseDouble(BaseA);
     double baseB =  Double.parseDouble(BaseB);
     double height =  Double.parseDouble(Height);
@@ -102,7 +148,7 @@ public class AppTestNGTest {
   }
 
   @Test(dataProvider = "input")
-  public void getTriangleArea(String AngleDeg,String BaseA,String BaseB,String Height,String RadiusA,String RadiusB){
+  public void getTriangleArea(String BaseA,String Height){
     double baseA =  Double.parseDouble(BaseA);
     double height =  Double.parseDouble(Height);
     Triangle triangle1 = new Triangle(baseA, height);

@@ -20,11 +20,11 @@
     <classes>
       <class name="task.TestClassForFactory">
         <methods>
-          <include name="getParallelogramArea"/>
-          <include name="getSquareArea"/>
-          <include name="getTrapezoidArea"/>
-          <include name="getTriangleArea"/>
-          <include name="getRectangleArea"/>
+          <include name="getParallelogramArea" invocation-numbers="0"/>
+          <include name="getSquareArea" invocation-numbers="0"/>
+          <include name="getTrapezoidArea" invocation-numbers="0"/>
+          <include name="getTriangleArea" invocation-numbers="0"/>
+          <include name="getRectangleArea" invocation-numbers="0"/>
         </methods>
       </class> <!-- task.TestClassForFactory -->
     </classes>

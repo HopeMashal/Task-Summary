@@ -3,20 +3,15 @@ package task;
 import java.util.List;
 
 import org.testng.annotations.Factory;
-import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Parameters;
 
 public class FactoryClass {
-	static String CSVpath="./src/files/ParamTask.csv";
+	static String CSVpath;
 
-  /* @Parameters({"CSVpath"})
-  @BeforeSuite
-  public void beforeSuite(String CSVpath){
-    FactoryClass.CSVpath = CSVpath;
-  } */
-
+	@Parameters({"CSVpath"})
   @Factory
-	public Object[] factoryMethod() throws Exception {
+	public Object[] factoryMethod(String CSVpath) throws Exception {
+		FactoryClass.CSVpath = CSVpath;
     ContentReader reader = new ContentReader();
 		List<String[]> lines = reader.readAllLines(FactoryClass.CSVpath);
 		lines.remove(0);

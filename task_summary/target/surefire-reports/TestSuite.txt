@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 64, Failures: 24, Errors: 0, Skipped: 0, Time elapsed: 1.93 s <<< FAILURE! - in TestSuite
-task.AppTestNGTest.getParallelogramArea  Time elapsed: 0.01 s  <<< FAILURE!
+Tests run: 64, Failures: 24, Errors: 0, Skipped: 0, Time elapsed: 1.825 s <<< FAILURE! - in TestSuite
+task.AppTestNGTest.getParallelogramArea  Time elapsed: 0.015 s  <<< FAILURE!
 java.lang.AssertionError: CAN'T ENTER STRING!!! LENGTHS MUST BE POSITIVE NUMBERS
 	at task.AppTestNGTest.getParallelogramArea(AppTestNGTest.java:133)
 
@@ -10,11 +10,11 @@ task.AppTestNGTest.getParallelogramArea  Time elapsed: 0 s  <<< FAILURE!
 java.lang.AssertionError: CAN'T ENTER ZERO!!! LENGTHS MUST BE POSITIVE NUMBERS
 	at task.AppTestNGTest.getParallelogramArea(AppTestNGTest.java:124)
 
-task.AppTestNGTest.getParallelogramArea  Time elapsed: 0.013 s  <<< FAILURE!
+task.AppTestNGTest.getParallelogramArea  Time elapsed: 0.015 s  <<< FAILURE!
 java.lang.AssertionError: CAN'T ENTER NEGATIVE NUMBERS!!! LENGTHS MUST BE POSITIVE NUMBERS expected [0.0] but found [-4.0]
 	at task.AppTestNGTest.getParallelogramArea(AppTestNGTest.java:130)
 
-task.AppTestNGTest.getRectangleArea  Time elapsed: 0.002 s  <<< FAILURE!
+task.AppTestNGTest.getRectangleArea  Time elapsed: 0 s  <<< FAILURE!
 java.lang.AssertionError: CAN'T ENTER STRING!!! LENGTHS MUST BE POSITIVE NUMBERS
 	at task.AppTestNGTest.getRectangleArea(AppTestNGTest.java:152)
 
@@ -22,7 +22,7 @@ task.AppTestNGTest.getRectangleArea  Time elapsed: 0.001 s  <<< FAILURE!
 java.lang.AssertionError: CAN'T ENTER ZERO!!! LENGTHS MUST BE POSITIVE NUMBERS
 	at task.AppTestNGTest.getRectangleArea(AppTestNGTest.java:143)
 
-task.AppTestNGTest.getRectangleArea  Time elapsed: 0.001 s  <<< FAILURE!
+task.AppTestNGTest.getRectangleArea  Time elapsed: 0 s  <<< FAILURE!
 java.lang.AssertionError: CAN'T ENTER NEGATIVE NUMBERS!!! LENGTHS MUST BE POSITIVE NUMBERS expected [0.0] but found [-4.0]
 	at task.AppTestNGTest.getRectangleArea(AppTestNGTest.java:149)
 
@@ -30,19 +30,19 @@ task.AppTestNGTest.getTrapezoidArea  Time elapsed: 0.001 s  <<< FAILURE!
 java.lang.AssertionError: CAN'T ENTER STRING!!! LENGTHS MUST BE POSITIVE NUMBERS
 	at task.AppTestNGTest.getTrapezoidArea(AppTestNGTest.java:209)
 
-task.AppTestNGTest.getTrapezoidArea  Time elapsed: 0.002 s  <<< FAILURE!
+task.AppTestNGTest.getTrapezoidArea  Time elapsed: 0.001 s  <<< FAILURE!
 java.lang.AssertionError: CAN'T ENTER ZERO!!! LENGTHS MUST BE POSITIVE NUMBERS
 	at task.AppTestNGTest.getTrapezoidArea(AppTestNGTest.java:200)
 
-task.AppTestNGTest.getTrapezoidArea  Time elapsed: 0.001 s  <<< FAILURE!
+task.AppTestNGTest.getTrapezoidArea  Time elapsed: 0.002 s  <<< FAILURE!
 java.lang.AssertionError: CAN'T ENTER NEGATIVE NUMBERS!!! LENGTHS MUST BE POSITIVE NUMBERS expected [0.0] but found [2.0]
 	at task.AppTestNGTest.getTrapezoidArea(AppTestNGTest.java:206)
 
-task.AppTestNGTest.getTriangleArea  Time elapsed: 0.001 s  <<< FAILURE!
+task.AppTestNGTest.getTriangleArea  Time elapsed: 0 s  <<< FAILURE!
 java.lang.AssertionError: CAN'T ENTER STRING!!! LENGTHS MUST BE POSITIVE NUMBERS
 	at task.AppTestNGTest.getTriangleArea(AppTestNGTest.java:228)
 
-task.AppTestNGTest.getTriangleArea  Time elapsed: 0.001 s  <<< FAILURE!
+task.AppTestNGTest.getTriangleArea  Time elapsed: 0 s  <<< FAILURE!
 java.lang.AssertionError: CAN'T ENTER ZERO!!! LENGTHS MUST BE POSITIVE NUMBERS
 	at task.AppTestNGTest.getTriangleArea(AppTestNGTest.java:219)
 
@@ -54,7 +54,7 @@ task.TestClassForFactory.getParallelogramArea  Time elapsed: 0.001 s  <<< FAILUR
 java.lang.AssertionError: CAN'T ENTER STRING!!! LENGTHS MUST BE POSITIVE NUMBERS
 	at task.TestClassForFactory.getParallelogramArea(TestClassForFactory.java:69)
 
-task.TestClassForFactory.getParallelogramArea  Time elapsed: 0 s  <<< FAILURE!
+task.TestClassForFactory.getParallelogramArea  Time elapsed: 0.002 s  <<< FAILURE!
 java.lang.AssertionError: CAN'T ENTER ZERO!!! LENGTHS MUST BE POSITIVE NUMBERS
 	at task.TestClassForFactory.getParallelogramArea(TestClassForFactory.java:60)
 
@@ -62,7 +62,7 @@ task.TestClassForFactory.getParallelogramArea  Time elapsed: 0.001 s  <<< FAILUR
 java.lang.AssertionError: CAN'T ENTER NEGATIVE NUMBERS!!! LENGTHS MUST BE POSITIVE NUMBERS expected [0.0] but found [-4.0]
 	at task.TestClassForFactory.getParallelogramArea(TestClassForFactory.java:66)
 
-task.TestClassForFactory.getRectangleArea  Time elapsed: 0 s  <<< FAILURE!
+task.TestClassForFactory.getRectangleArea  Time elapsed: 0.001 s  <<< FAILURE!
 java.lang.AssertionError: CAN'T ENTER STRING!!! LENGTHS MUST BE POSITIVE NUMBERS
 	at task.TestClassForFactory.getRectangleArea(TestClassForFactory.java:86)
 
@@ -70,15 +70,15 @@ task.TestClassForFactory.getRectangleArea  Time elapsed: 0.001 s  <<< FAILURE!
 java.lang.AssertionError: CAN'T ENTER ZERO!!! LENGTHS MUST BE POSITIVE NUMBERS
 	at task.TestClassForFactory.getRectangleArea(TestClassForFactory.java:77)
 
-task.TestClassForFactory.getRectangleArea  Time elapsed: 0 s  <<< FAILURE!
+task.TestClassForFactory.getRectangleArea  Time elapsed: 0.001 s  <<< FAILURE!
 java.lang.AssertionError: CAN'T ENTER NEGATIVE NUMBERS!!! LENGTHS MUST BE POSITIVE NUMBERS expected [0.0] but found [-4.0]
 	at task.TestClassForFactory.getRectangleArea(TestClassForFactory.java:83)
 
-task.TestClassForFactory.getTrapezoidArea  Time elapsed: 0.001 s  <<< FAILURE!
+task.TestClassForFactory.getTrapezoidArea  Time elapsed: 0 s  <<< FAILURE!
 java.lang.AssertionError: CAN'T ENTER STRING!!! LENGTHS MUST BE POSITIVE NUMBERS
 	at task.TestClassForFactory.getTrapezoidArea(TestClassForFactory.java:137)
 
-task.TestClassForFactory.getTrapezoidArea  Time elapsed: 0.001 s  <<< FAILURE!
+task.TestClassForFactory.getTrapezoidArea  Time elapsed: 0.002 s  <<< FAILURE!
 java.lang.AssertionError: CAN'T ENTER ZERO!!! LENGTHS MUST BE POSITIVE NUMBERS
 	at task.TestClassForFactory.getTrapezoidArea(TestClassForFactory.java:128)
 
@@ -86,15 +86,15 @@ task.TestClassForFactory.getTrapezoidArea  Time elapsed: 0.001 s  <<< FAILURE!
 java.lang.AssertionError: CAN'T ENTER NEGATIVE NUMBERS!!! LENGTHS MUST BE POSITIVE NUMBERS expected [0.0] but found [2.0]
 	at task.TestClassForFactory.getTrapezoidArea(TestClassForFactory.java:134)
 
-task.TestClassForFactory.getTriangleArea  Time elapsed: 0.003 s  <<< FAILURE!
+task.TestClassForFactory.getTriangleArea  Time elapsed: 0.002 s  <<< FAILURE!
 java.lang.AssertionError: CAN'T ENTER STRING!!! LENGTHS MUST BE POSITIVE NUMBERS
 	at task.TestClassForFactory.getTriangleArea(TestClassForFactory.java:154)
 
-task.TestClassForFactory.getTriangleArea  Time elapsed: 0 s  <<< FAILURE!
+task.TestClassForFactory.getTriangleArea  Time elapsed: 0.001 s  <<< FAILURE!
 java.lang.AssertionError: CAN'T ENTER ZERO!!! LENGTHS MUST BE POSITIVE NUMBERS
 	at task.TestClassForFactory.getTriangleArea(TestClassForFactory.java:145)
 
-task.TestClassForFactory.getTriangleArea  Time elapsed: 0.001 s  <<< FAILURE!
+task.TestClassForFactory.getTriangleArea  Time elapsed: 0 s  <<< FAILURE!
 java.lang.AssertionError: CAN'T ENTER NEGATIVE NUMBERS!!! LENGTHS MUST BE POSITIVE NUMBERS expected [0.0] but found [-2.0]
 	at task.TestClassForFactory.getTriangleArea(TestClassForFactory.java:151)
 

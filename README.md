@@ -18,7 +18,7 @@ Each shape has it’s formula for area calculation, this task will contains 3 pa
 
 ## Notes
 * Maven project must be used 
-* Test cases must be delivered with the code 
+* Test cases must be delivered with the code => String & ZERO & Negative Number
 * You can deliver your code using GitHub or Bitbucket 
 * Trello must be updated with your work status 
 * You can find the needed formulas in https://www.mathsisfun.com/area.html

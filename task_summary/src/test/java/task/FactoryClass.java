@@ -1,5 +1,6 @@
 package task;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.testng.annotations.Factory;
@@ -16,12 +17,22 @@ public class FactoryClass {
 		Object[] data = new Object[lines.size()];
 		int index = 0;
 		for(String[] line : lines) {
-			double AngleDeg = Double.parseDouble(line[0]);
-			double BaseA = Double.parseDouble(line[1]);
-			double BaseB = Double.parseDouble(line[2]);
-			double Height = Double.parseDouble(line[3]);
-			double RadiusA = Double.parseDouble(line[4]);
-			double RadiusB = Double.parseDouble(line[5]);
+			double AngleDeg, BaseA, BaseB, Height, RadiusA, RadiusB;
+			ArrayList<Double> myArrayDouble = new ArrayList<Double>();
+			for(int i=0;i<line.length;i++){
+				try {
+					myArrayDouble.add(Double.parseDouble(line[i]));
+				} catch (Exception e) {
+					System.out.println("CAN'T ENTER STRING!!! LENGTHS MUST BE POSITIVE NUMBERS");
+					myArrayDouble.add(0.00001);
+				}
+			}
+			AngleDeg = myArrayDouble.get(0);
+			BaseA = myArrayDouble.get(1); 
+			BaseB = myArrayDouble.get(2); 
+			Height = myArrayDouble.get(3); 
+			RadiusA = myArrayDouble.get(4); 
+			RadiusB = myArrayDouble.get(5);
 			data[index] = new TestClassForFactory(AngleDeg,BaseA,BaseB,Height,RadiusA,RadiusB);
 			index++;
 		}

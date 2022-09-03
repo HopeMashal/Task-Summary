@@ -6,12 +6,11 @@
     <classes>
       <class name="task.AppTestNGTest">
         <methods>
-          <include name="getSquareArea" invocation-numbers="1"/>
-          <include name="getRectangleArea" invocation-numbers="3"/>
-          <include name="getTriangleArea" invocation-numbers="3"/>
+          <include name="getRectangleArea" invocation-numbers="0 1 3"/>
+          <include name="getTriangleArea" invocation-numbers="0 1 3"/>
           <include name="beforeSuite"/>
-          <include name="getTrapezoidArea" invocation-numbers="1 3"/>
-          <include name="getParallelogramArea" invocation-numbers="3"/>
+          <include name="getTrapezoidArea" invocation-numbers="0 1 3"/>
+          <include name="getParallelogramArea" invocation-numbers="0 1 3"/>
         </methods>
       </class> <!-- task.AppTestNGTest -->
     </classes>
@@ -21,7 +20,6 @@
       <class name="task.TestClassForFactory">
         <methods>
           <include name="getParallelogramArea" invocation-numbers="0"/>
-          <include name="getSquareArea" invocation-numbers="0"/>
           <include name="getTrapezoidArea" invocation-numbers="0"/>
           <include name="getTriangleArea" invocation-numbers="0"/>
           <include name="getRectangleArea" invocation-numbers="0"/>

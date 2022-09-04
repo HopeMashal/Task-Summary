@@ -1,6 +1,6 @@
 package task;
 
-import static task.JUnitFunctions.getArea;
+import static task.ShapeFunctions.getArea;
 
 import java.util.Collection;
 import java.util.List;
@@ -38,48 +38,48 @@ public class AppJUnitTest {
   @Test
 	@Parameters
 	public void getCircleArea() {
-    getArea(new String[] {RadiusA}, "Circle");
+    getArea(new String[] {RadiusA}, "Circle","JUnit");
 	}
 
   @Test
 	@Parameters
 	public void getEllipseArea() {
-    getArea(new String[] {RadiusA,RadiusB}, "Ellipse");
+    getArea(new String[] {RadiusA,RadiusB}, "Ellipse","JUnit");
 	}
 
   @Test
 	@Parameters
 	public void getParallelogramArea() {
-    getArea(new String[] {BaseA,Height}, "Parallelogram");
+    getArea(new String[] {BaseA,Height}, "Parallelogram","JUnit");
 	}
 
   @Test
 	@Parameters
 	public void getRectangleArea() {
-    getArea(new String[] {BaseA,Height}, "Rectangle");
+    getArea(new String[] {BaseA,Height}, "Rectangle","JUnit");
 	}
 
   @Test
 	@Parameters
 	public void getSectorArea() {
-    getArea(new String[] {RadiusA,AngleDeg}, "Sector");
+    getArea(new String[] {RadiusA,AngleDeg}, "Sector","JUnit");
 	}
 
   @Test
 	@Parameters
 	public void getSquareArea() {
-    getArea(new String[] {Height}, "Square");
+    getArea(new String[] {Height}, "Square","JUnit");
 	}
 
   @Test
 	@Parameters
 	public void getTrapezoidArea() {
-    getArea(new String[] {BaseA,BaseB,Height}, "Trapezoid");
+    getArea(new String[] {BaseA,BaseB,Height}, "Trapezoid","JUnit");
 	}
 
   @Test
 	@Parameters
 	public void getTriangleArea() {
-    getArea(new String[] {BaseA,Height}, "Triangle");
+    getArea(new String[] {BaseA,Height}, "Triangle","JUnit");
 	}
 }

@@ -1,11 +1,21 @@
 package task;
 
+import task.Shapes.Circle;
+import task.Shapes.Ellipse;
+import task.Shapes.Parallelogram;
+import task.Shapes.Rectangle;
+import task.Shapes.Sector;
+import task.Shapes.Square;
+import task.Shapes.Trapezoid;
+import task.Shapes.Triangle;
+
 import java.util.ArrayList;
 
-import org.junit.Assert;
+import static task.JUnitAssert.*;
+import static task.TestNGAssert.*;
 
-public class JUnitFunctions {
-  public static void getArea(String[] args,String Shape){
+public class ShapeFunctions {
+  public static void getArea(String[] args,String Shape,String Testing){
     ArrayList<Double> argsList = new ArrayList<Double>();
     Boolean hasString = false;
     for(int i=0;i<args.length;i++){
@@ -16,9 +26,11 @@ public class JUnitFunctions {
       }
     }
     if(argsList.contains(0.0)){
-      Assert.fail("CAN'T ENTER ZERO!!! LENGTHS MUST BE POSITIVE NUMBERS");
+      if(Testing=="JUnit") JUnitZeroMsg();
+      else if (Testing=="TestNG") TestNGZeroMsg();
     } else if (hasString) {
-      Assert.fail("CAN'T ENTER STRING!!! LENGTHS MUST BE POSITIVE NUMBERS");
+      if(Testing=="JUnit") JUnitStringMsg();
+      else if (Testing=="TestNG") TestNGStringMsg();
     } else {
       double ExArea=0.0 ,AcArea=0.0;
       if(Shape=="Circle"){
@@ -69,7 +81,8 @@ public class JUnitFunctions {
         ExArea=triangle1.getArea();
         AcArea=0.5*base*height;
       }
-      Assert.assertEquals("CAN'T ENTER NEGATIVE NUMBERS!!! LENGTHS MUST BE POSITIVE NUMBERS",ExArea, AcArea,0);
+      if(Testing=="JUnit") JUnitNegativeMsg(ExArea, AcArea);
+      else if (Testing=="TestNG") TestNGNegativeMsg(ExArea, AcArea);
     }
   }
 }

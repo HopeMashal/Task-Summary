@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="64" passed="40" failed="24" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-03T19:46:00 IDT" name="Task Summary" finished-at="2022-09-03T19:46:01 IDT" duration-ms="623">
+  <suite started-at="2022-09-04T14:26:19 IDT" name="Task Summary" finished-at="2022-09-04T14:26:19 IDT" duration-ms="468">
     <groups>
     </groups>
-    <test started-at="2022-09-03T19:46:00 IDT" name="Area Calculation - DataProvider" finished-at="2022-09-03T19:46:00 IDT" duration-ms="280">
+    <test started-at="2022-09-04T14:26:19 IDT" name="Area Calculation - DataProvider" finished-at="2022-09-04T14:26:19 IDT" duration-ms="215">
       <class name="task.AppTestNGTest">
-        <test-method signature="getCircleArea(java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-03T19:46:00 IDT" name="getCircleArea" data-provider="input" finished-at="2022-09-03T19:46:00 IDT" duration-ms="22" status="PASS">
+        <test-method signature="getCircleArea(java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-04T14:26:19 IDT" name="getCircleArea" data-provider="input" finished-at="2022-09-04T14:26:19 IDT" duration-ms="12" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getCircleArea -->
-        <test-method signature="getCircleArea(java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-03T19:46:00 IDT" name="getCircleArea" data-provider="input" finished-at="2022-09-03T19:46:00 IDT" duration-ms="3" status="PASS">
+        <test-method signature="getCircleArea(java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-04T14:26:19 IDT" name="getCircleArea" data-provider="input" finished-at="2022-09-04T14:26:19 IDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,7 +29,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getCircleArea -->
-        <test-method signature="getCircleArea(java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-03T19:46:00 IDT" name="getCircleArea" data-provider="input" finished-at="2022-09-03T19:46:00 IDT" duration-ms="2" status="PASS">
+        <test-method signature="getCircleArea(java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-04T14:26:19 IDT" name="getCircleArea" data-provider="input" finished-at="2022-09-04T14:26:19 IDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -40,7 +40,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getCircleArea -->
-        <test-method signature="getCircleArea(java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-03T19:46:00 IDT" name="getCircleArea" data-provider="input" finished-at="2022-09-03T19:46:00 IDT" duration-ms="1" status="PASS">
+        <test-method signature="getCircleArea(java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-04T14:26:19 IDT" name="getCircleArea" data-provider="input" finished-at="2022-09-04T14:26:19 IDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,7 +51,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getCircleArea -->
-        <test-method signature="getEllipseArea(java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-03T19:46:00 IDT" name="getEllipseArea" data-provider="input" finished-at="2022-09-03T19:46:00 IDT" duration-ms="2" status="PASS">
+        <test-method signature="getEllipseArea(java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-04T14:26:19 IDT" name="getEllipseArea" data-provider="input" finished-at="2022-09-04T14:26:19 IDT" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -67,7 +67,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getEllipseArea -->
-        <test-method signature="getEllipseArea(java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-03T19:46:00 IDT" name="getEllipseArea" data-provider="input" finished-at="2022-09-03T19:46:00 IDT" duration-ms="2" status="PASS">
+        <test-method signature="getEllipseArea(java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-04T14:26:19 IDT" name="getEllipseArea" data-provider="input" finished-at="2022-09-04T14:26:19 IDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -83,7 +83,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getEllipseArea -->
-        <test-method signature="getEllipseArea(java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-03T19:46:00 IDT" name="getEllipseArea" data-provider="input" finished-at="2022-09-03T19:46:00 IDT" duration-ms="1" status="PASS">
+        <test-method signature="getEllipseArea(java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-04T14:26:19 IDT" name="getEllipseArea" data-provider="input" finished-at="2022-09-04T14:26:19 IDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -99,7 +99,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getEllipseArea -->
-        <test-method signature="getEllipseArea(java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-03T19:46:00 IDT" name="getEllipseArea" data-provider="input" finished-at="2022-09-03T19:46:00 IDT" duration-ms="1" status="PASS">
+        <test-method signature="getEllipseArea(java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-04T14:26:19 IDT" name="getEllipseArea" data-provider="input" finished-at="2022-09-04T14:26:19 IDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -115,7 +115,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getEllipseArea -->
-        <test-method signature="getParallelogramArea(java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-03T19:46:00 IDT" name="getParallelogramArea" data-provider="input" finished-at="2022-09-03T19:46:00 IDT" duration-ms="2" status="FAIL">
+        <test-method signature="getParallelogramArea(java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-04T14:26:19 IDT" name="getParallelogramArea" data-provider="input" finished-at="2022-09-04T14:26:19 IDT" duration-ms="1" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -135,7 +135,8 @@
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: CAN'T ENTER STRING!!! LENGTHS MUST BE POSITIVE NUMBERS
 at org.testng.Assert.fail(Assert.java:110)
-at task.TestNGFunctions.getArea(TestNGFunctions.java:21)
+at task.TestNGAssert.TestNGStringMsg(TestNGAssert.java:11)
+at task.ShapeFunctions.getArea(ShapeFunctions.java:33)
 at task.AppTestNGTest.getParallelogramArea(AppTestNGTest.java:94)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -175,7 +176,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getParallelogramArea -->
-        <test-method signature="getParallelogramArea(java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-03T19:46:00 IDT" name="getParallelogramArea" data-provider="input" finished-at="2022-09-03T19:46:00 IDT" duration-ms="0" status="FAIL">
+        <test-method signature="getParallelogramArea(java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-04T14:26:19 IDT" name="getParallelogramArea" data-provider="input" finished-at="2022-09-04T14:26:19 IDT" duration-ms="2" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -195,7 +196,8 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: CAN'T ENTER ZERO!!! LENGTHS MUST BE POSITIVE NUMBERS
 at org.testng.Assert.fail(Assert.java:110)
-at task.TestNGFunctions.getArea(TestNGFunctions.java:19)
+at task.TestNGAssert.TestNGZeroMsg(TestNGAssert.java:7)
+at task.ShapeFunctions.getArea(ShapeFunctions.java:30)
 at task.AppTestNGTest.getParallelogramArea(AppTestNGTest.java:94)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -235,7 +237,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getParallelogramArea -->
-        <test-method signature="getParallelogramArea(java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-03T19:46:00 IDT" name="getParallelogramArea" data-provider="input" finished-at="2022-09-03T19:46:00 IDT" duration-ms="3" status="PASS">
+        <test-method signature="getParallelogramArea(java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-04T14:26:19 IDT" name="getParallelogramArea" data-provider="input" finished-at="2022-09-04T14:26:19 IDT" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -251,7 +253,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getParallelogramArea -->
-        <test-method signature="getParallelogramArea(java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-03T19:46:00 IDT" name="getParallelogramArea" data-provider="input" finished-at="2022-09-03T19:46:00 IDT" duration-ms="32" status="FAIL">
+        <test-method signature="getParallelogramArea(java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-04T14:26:19 IDT" name="getParallelogramArea" data-provider="input" finished-at="2022-09-04T14:26:19 IDT" duration-ms="15" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -273,7 +275,8 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
 at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertEquals(Assert.java:727)
-at task.TestNGFunctions.getArea(TestNGFunctions.java:72)
+at task.TestNGAssert.TestNGNegativeMsg(TestNGAssert.java:15)
+at task.ShapeFunctions.getArea(ShapeFunctions.java:85)
 at task.AppTestNGTest.getParallelogramArea(AppTestNGTest.java:94)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -313,7 +316,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getParallelogramArea -->
-        <test-method signature="getRectangleArea(java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-03T19:46:00 IDT" name="getRectangleArea" data-provider="input" finished-at="2022-09-03T19:46:00 IDT" duration-ms="0" status="FAIL">
+        <test-method signature="getRectangleArea(java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-04T14:26:19 IDT" name="getRectangleArea" data-provider="input" finished-at="2022-09-04T14:26:19 IDT" duration-ms="1" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -333,7 +336,8 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: CAN'T ENTER STRING!!! LENGTHS MUST BE POSITIVE NUMBERS
 at org.testng.Assert.fail(Assert.java:110)
-at task.TestNGFunctions.getArea(TestNGFunctions.java:21)
+at task.TestNGAssert.TestNGStringMsg(TestNGAssert.java:11)
+at task.ShapeFunctions.getArea(ShapeFunctions.java:33)
 at task.AppTestNGTest.getRectangleArea(AppTestNGTest.java:99)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -373,7 +377,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getRectangleArea -->
-        <test-method signature="getRectangleArea(java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-03T19:46:00 IDT" name="getRectangleArea" data-provider="input" finished-at="2022-09-03T19:46:00 IDT" duration-ms="0" status="FAIL">
+        <test-method signature="getRectangleArea(java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-04T14:26:19 IDT" name="getRectangleArea" data-provider="input" finished-at="2022-09-04T14:26:19 IDT" duration-ms="0" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -393,7 +397,8 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: CAN'T ENTER ZERO!!! LENGTHS MUST BE POSITIVE NUMBERS
 at org.testng.Assert.fail(Assert.java:110)
-at task.TestNGFunctions.getArea(TestNGFunctions.java:19)
+at task.TestNGAssert.TestNGZeroMsg(TestNGAssert.java:7)
+at task.ShapeFunctions.getArea(ShapeFunctions.java:30)
 at task.AppTestNGTest.getRectangleArea(AppTestNGTest.java:99)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -433,7 +438,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getRectangleArea -->
-        <test-method signature="getRectangleArea(java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-03T19:46:00 IDT" name="getRectangleArea" data-provider="input" finished-at="2022-09-03T19:46:00 IDT" duration-ms="2" status="PASS">
+        <test-method signature="getRectangleArea(java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-04T14:26:19 IDT" name="getRectangleArea" data-provider="input" finished-at="2022-09-04T14:26:19 IDT" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -449,7 +454,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getRectangleArea -->
-        <test-method signature="getRectangleArea(java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-03T19:46:00 IDT" name="getRectangleArea" data-provider="input" finished-at="2022-09-03T19:46:00 IDT" duration-ms="1" status="FAIL">
+        <test-method signature="getRectangleArea(java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-04T14:26:19 IDT" name="getRectangleArea" data-provider="input" finished-at="2022-09-04T14:26:19 IDT" duration-ms="0" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -471,7 +476,8 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
 at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertEquals(Assert.java:727)
-at task.TestNGFunctions.getArea(TestNGFunctions.java:72)
+at task.TestNGAssert.TestNGNegativeMsg(TestNGAssert.java:15)
+at task.ShapeFunctions.getArea(ShapeFunctions.java:85)
 at task.AppTestNGTest.getRectangleArea(AppTestNGTest.java:99)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -511,7 +517,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getRectangleArea -->
-        <test-method signature="getSectorArea(java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-03T19:46:00 IDT" name="getSectorArea" data-provider="input" finished-at="2022-09-03T19:46:00 IDT" duration-ms="5" status="PASS">
+        <test-method signature="getSectorArea(java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-04T14:26:19 IDT" name="getSectorArea" data-provider="input" finished-at="2022-09-04T14:26:19 IDT" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -527,7 +533,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSectorArea -->
-        <test-method signature="getSectorArea(java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-03T19:46:00 IDT" name="getSectorArea" data-provider="input" finished-at="2022-09-03T19:46:00 IDT" duration-ms="0" status="PASS">
+        <test-method signature="getSectorArea(java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-04T14:26:19 IDT" name="getSectorArea" data-provider="input" finished-at="2022-09-04T14:26:19 IDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -543,7 +549,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSectorArea -->
-        <test-method signature="getSectorArea(java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-03T19:46:00 IDT" name="getSectorArea" data-provider="input" finished-at="2022-09-03T19:46:00 IDT" duration-ms="0" status="PASS">
+        <test-method signature="getSectorArea(java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-04T14:26:19 IDT" name="getSectorArea" data-provider="input" finished-at="2022-09-04T14:26:19 IDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -559,7 +565,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSectorArea -->
-        <test-method signature="getSectorArea(java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-03T19:46:00 IDT" name="getSectorArea" data-provider="input" finished-at="2022-09-03T19:46:00 IDT" duration-ms="0" status="PASS">
+        <test-method signature="getSectorArea(java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-04T14:26:19 IDT" name="getSectorArea" data-provider="input" finished-at="2022-09-04T14:26:19 IDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -575,7 +581,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSectorArea -->
-        <test-method signature="getSquareArea(java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-03T19:46:00 IDT" name="getSquareArea" data-provider="input" finished-at="2022-09-03T19:46:00 IDT" duration-ms="0" status="PASS">
+        <test-method signature="getSquareArea(java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-04T14:26:19 IDT" name="getSquareArea" data-provider="input" finished-at="2022-09-04T14:26:19 IDT" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -586,7 +592,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSquareArea -->
-        <test-method signature="getSquareArea(java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-03T19:46:00 IDT" name="getSquareArea" data-provider="input" finished-at="2022-09-03T19:46:00 IDT" duration-ms="0" status="PASS">
+        <test-method signature="getSquareArea(java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-04T14:26:19 IDT" name="getSquareArea" data-provider="input" finished-at="2022-09-04T14:26:19 IDT" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -597,7 +603,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSquareArea -->
-        <test-method signature="getSquareArea(java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-03T19:46:00 IDT" name="getSquareArea" data-provider="input" finished-at="2022-09-03T19:46:00 IDT" duration-ms="0" status="PASS">
+        <test-method signature="getSquareArea(java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-04T14:26:19 IDT" name="getSquareArea" data-provider="input" finished-at="2022-09-04T14:26:19 IDT" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -608,7 +614,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSquareArea -->
-        <test-method signature="getSquareArea(java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-03T19:46:00 IDT" name="getSquareArea" data-provider="input" finished-at="2022-09-03T19:46:00 IDT" duration-ms="0" status="PASS">
+        <test-method signature="getSquareArea(java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-04T14:26:19 IDT" name="getSquareArea" data-provider="input" finished-at="2022-09-04T14:26:19 IDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -619,7 +625,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSquareArea -->
-        <test-method signature="getTrapezoidArea(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-03T19:46:00 IDT" name="getTrapezoidArea" data-provider="input" finished-at="2022-09-03T19:46:00 IDT" duration-ms="1" status="FAIL">
+        <test-method signature="getTrapezoidArea(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-04T14:26:19 IDT" name="getTrapezoidArea" data-provider="input" finished-at="2022-09-04T14:26:19 IDT" duration-ms="1" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -644,7 +650,8 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: CAN'T ENTER STRING!!! LENGTHS MUST BE POSITIVE NUMBERS
 at org.testng.Assert.fail(Assert.java:110)
-at task.TestNGFunctions.getArea(TestNGFunctions.java:21)
+at task.TestNGAssert.TestNGStringMsg(TestNGAssert.java:11)
+at task.ShapeFunctions.getArea(ShapeFunctions.java:33)
 at task.AppTestNGTest.getTrapezoidArea(AppTestNGTest.java:114)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -684,7 +691,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTrapezoidArea -->
-        <test-method signature="getTrapezoidArea(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-03T19:46:00 IDT" name="getTrapezoidArea" data-provider="input" finished-at="2022-09-03T19:46:00 IDT" duration-ms="2" status="FAIL">
+        <test-method signature="getTrapezoidArea(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-04T14:26:19 IDT" name="getTrapezoidArea" data-provider="input" finished-at="2022-09-04T14:26:19 IDT" duration-ms="0" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -709,7 +716,8 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: CAN'T ENTER ZERO!!! LENGTHS MUST BE POSITIVE NUMBERS
 at org.testng.Assert.fail(Assert.java:110)
-at task.TestNGFunctions.getArea(TestNGFunctions.java:19)
+at task.TestNGAssert.TestNGZeroMsg(TestNGAssert.java:7)
+at task.ShapeFunctions.getArea(ShapeFunctions.java:30)
 at task.AppTestNGTest.getTrapezoidArea(AppTestNGTest.java:114)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -749,7 +757,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTrapezoidArea -->
-        <test-method signature="getTrapezoidArea(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-03T19:46:00 IDT" name="getTrapezoidArea" data-provider="input" finished-at="2022-09-03T19:46:00 IDT" duration-ms="0" status="PASS">
+        <test-method signature="getTrapezoidArea(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-04T14:26:19 IDT" name="getTrapezoidArea" data-provider="input" finished-at="2022-09-04T14:26:19 IDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -770,7 +778,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTrapezoidArea -->
-        <test-method signature="getTrapezoidArea(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-03T19:46:00 IDT" name="getTrapezoidArea" data-provider="input" finished-at="2022-09-03T19:46:00 IDT" duration-ms="0" status="FAIL">
+        <test-method signature="getTrapezoidArea(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-04T14:26:19 IDT" name="getTrapezoidArea" data-provider="input" finished-at="2022-09-04T14:26:19 IDT" duration-ms="0" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -797,7 +805,8 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
 at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertEquals(Assert.java:727)
-at task.TestNGFunctions.getArea(TestNGFunctions.java:72)
+at task.TestNGAssert.TestNGNegativeMsg(TestNGAssert.java:15)
+at task.ShapeFunctions.getArea(ShapeFunctions.java:85)
 at task.AppTestNGTest.getTrapezoidArea(AppTestNGTest.java:114)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -837,7 +846,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTrapezoidArea -->
-        <test-method signature="getTriangleArea(java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-03T19:46:00 IDT" name="getTriangleArea" data-provider="input" finished-at="2022-09-03T19:46:00 IDT" duration-ms="0" status="FAIL">
+        <test-method signature="getTriangleArea(java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-04T14:26:19 IDT" name="getTriangleArea" data-provider="input" finished-at="2022-09-04T14:26:19 IDT" duration-ms="0" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -857,7 +866,8 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: CAN'T ENTER STRING!!! LENGTHS MUST BE POSITIVE NUMBERS
 at org.testng.Assert.fail(Assert.java:110)
-at task.TestNGFunctions.getArea(TestNGFunctions.java:21)
+at task.TestNGAssert.TestNGStringMsg(TestNGAssert.java:11)
+at task.ShapeFunctions.getArea(ShapeFunctions.java:33)
 at task.AppTestNGTest.getTriangleArea(AppTestNGTest.java:119)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -897,7 +907,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTriangleArea -->
-        <test-method signature="getTriangleArea(java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-03T19:46:00 IDT" name="getTriangleArea" data-provider="input" finished-at="2022-09-03T19:46:00 IDT" duration-ms="1" status="FAIL">
+        <test-method signature="getTriangleArea(java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-04T14:26:19 IDT" name="getTriangleArea" data-provider="input" finished-at="2022-09-04T14:26:19 IDT" duration-ms="1" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -917,7 +927,8 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: CAN'T ENTER ZERO!!! LENGTHS MUST BE POSITIVE NUMBERS
 at org.testng.Assert.fail(Assert.java:110)
-at task.TestNGFunctions.getArea(TestNGFunctions.java:19)
+at task.TestNGAssert.TestNGZeroMsg(TestNGAssert.java:7)
+at task.ShapeFunctions.getArea(ShapeFunctions.java:30)
 at task.AppTestNGTest.getTriangleArea(AppTestNGTest.java:119)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -957,7 +968,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTriangleArea -->
-        <test-method signature="getTriangleArea(java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-03T19:46:00 IDT" name="getTriangleArea" data-provider="input" finished-at="2022-09-03T19:46:00 IDT" duration-ms="2" status="PASS">
+        <test-method signature="getTriangleArea(java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-04T14:26:19 IDT" name="getTriangleArea" data-provider="input" finished-at="2022-09-04T14:26:19 IDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -973,7 +984,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTriangleArea -->
-        <test-method signature="getTriangleArea(java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-03T19:46:00 IDT" name="getTriangleArea" data-provider="input" finished-at="2022-09-03T19:46:00 IDT" duration-ms="1" status="FAIL">
+        <test-method signature="getTriangleArea(java.lang.String,java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-04T14:26:19 IDT" name="getTriangleArea" data-provider="input" finished-at="2022-09-04T14:26:19 IDT" duration-ms="1" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -995,7 +1006,8 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
 at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertEquals(Assert.java:727)
-at task.TestNGFunctions.getArea(TestNGFunctions.java:72)
+at task.TestNGAssert.TestNGNegativeMsg(TestNGAssert.java:15)
+at task.ShapeFunctions.getArea(ShapeFunctions.java:85)
 at task.AppTestNGTest.getTriangleArea(AppTestNGTest.java:119)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -1037,9 +1049,9 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
         </test-method> <!-- getTriangleArea -->
       </class> <!-- task.AppTestNGTest -->
     </test> <!-- Area Calculation - DataProvider -->
-    <test started-at="2022-09-03T19:46:01 IDT" name="Area Calculation - Factory" finished-at="2022-09-03T19:46:01 IDT" duration-ms="64">
+    <test started-at="2022-09-04T14:26:19 IDT" name="Area Calculation - Factory" finished-at="2022-09-04T14:26:19 IDT" duration-ms="81">
       <class name="task.AppTestNGTest">
-        <test-method is-config="true" signature="beforeSuite(java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-03T19:46:00 IDT" name="beforeSuite" finished-at="2022-09-03T19:46:00 IDT" duration-ms="37" status="PASS">
+        <test-method is-config="true" signature="beforeSuite(java.lang.String)[pri:0, instance:task.AppTestNGTest@1f3f4916]" started-at="2022-09-04T14:26:19 IDT" name="beforeSuite" finished-at="2022-09-04T14:26:19 IDT" duration-ms="18" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1052,48 +1064,49 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
         </test-method> <!-- beforeSuite -->
       </class> <!-- task.AppTestNGTest -->
       <class name="task.TestClassForFactory">
-        <test-method signature="getCircleArea()[pri:0, instance:task.TestClassForFactory@123ef382, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-03T19:46:01 IDT" name="getCircleArea" finished-at="2022-09-03T19:46:01 IDT" duration-ms="1" status="PASS">
+        <test-method signature="getCircleArea()[pri:0, instance:task.TestClassForFactory@384ad17b, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-04T14:26:19 IDT" name="getCircleArea" finished-at="2022-09-04T14:26:19 IDT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getCircleArea -->
-        <test-method signature="getCircleArea()[pri:0, instance:task.TestClassForFactory@384ad17b, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-03T19:46:01 IDT" name="getCircleArea" finished-at="2022-09-03T19:46:01 IDT" duration-ms="1" status="PASS">
+        <test-method signature="getCircleArea()[pri:0, instance:task.TestClassForFactory@441772e, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-04T14:26:19 IDT" name="getCircleArea" finished-at="2022-09-04T14:26:19 IDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getCircleArea -->
-        <test-method signature="getCircleArea()[pri:0, instance:task.TestClassForFactory@61862a7f, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-03T19:46:01 IDT" name="getCircleArea" finished-at="2022-09-03T19:46:01 IDT" duration-ms="0" status="PASS">
+        <test-method signature="getCircleArea()[pri:0, instance:task.TestClassForFactory@61862a7f, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-04T14:26:19 IDT" name="getCircleArea" finished-at="2022-09-04T14:26:19 IDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getCircleArea -->
-        <test-method signature="getCircleArea()[pri:0, instance:task.TestClassForFactory@dbf57b3, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-03T19:46:01 IDT" name="getCircleArea" finished-at="2022-09-03T19:46:01 IDT" duration-ms="1" status="PASS">
+        <test-method signature="getCircleArea()[pri:0, instance:task.TestClassForFactory@dbf57b3, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-04T14:26:19 IDT" name="getCircleArea" finished-at="2022-09-04T14:26:19 IDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getCircleArea -->
-        <test-method signature="getEllipseArea()[pri:0, instance:task.TestClassForFactory@123ef382, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-03T19:46:01 IDT" name="getEllipseArea" finished-at="2022-09-03T19:46:01 IDT" duration-ms="0" status="PASS">
+        <test-method signature="getEllipseArea()[pri:0, instance:task.TestClassForFactory@384ad17b, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-04T14:26:19 IDT" name="getEllipseArea" finished-at="2022-09-04T14:26:19 IDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getEllipseArea -->
-        <test-method signature="getEllipseArea()[pri:0, instance:task.TestClassForFactory@384ad17b, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-03T19:46:01 IDT" name="getEllipseArea" finished-at="2022-09-03T19:46:01 IDT" duration-ms="0" status="PASS">
+        <test-method signature="getEllipseArea()[pri:0, instance:task.TestClassForFactory@441772e, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-04T14:26:19 IDT" name="getEllipseArea" finished-at="2022-09-04T14:26:19 IDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getEllipseArea -->
-        <test-method signature="getEllipseArea()[pri:0, instance:task.TestClassForFactory@61862a7f, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-03T19:46:01 IDT" name="getEllipseArea" finished-at="2022-09-03T19:46:01 IDT" duration-ms="0" status="PASS">
+        <test-method signature="getEllipseArea()[pri:0, instance:task.TestClassForFactory@61862a7f, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-04T14:26:19 IDT" name="getEllipseArea" finished-at="2022-09-04T14:26:19 IDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getEllipseArea -->
-        <test-method signature="getEllipseArea()[pri:0, instance:task.TestClassForFactory@dbf57b3, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-03T19:46:01 IDT" name="getEllipseArea" finished-at="2022-09-03T19:46:01 IDT" duration-ms="0" status="PASS">
+        <test-method signature="getEllipseArea()[pri:0, instance:task.TestClassForFactory@dbf57b3, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-04T14:26:19 IDT" name="getEllipseArea" finished-at="2022-09-04T14:26:19 IDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getEllipseArea -->
-        <test-method signature="getParallelogramArea()[pri:0, instance:task.TestClassForFactory@123ef382, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-03T19:46:01 IDT" name="getParallelogramArea" finished-at="2022-09-03T19:46:01 IDT" duration-ms="2" status="FAIL">
+        <test-method signature="getParallelogramArea()[pri:0, instance:task.TestClassForFactory@384ad17b, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-04T14:26:19 IDT" name="getParallelogramArea" finished-at="2022-09-04T14:26:19 IDT" duration-ms="1" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[CAN'T ENTER STRING!!! LENGTHS MUST BE POSITIVE NUMBERS]]>
+              <![CDATA[CAN'T ENTER ZERO!!! LENGTHS MUST BE POSITIVE NUMBERS]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: CAN'T ENTER STRING!!! LENGTHS MUST BE POSITIVE NUMBERS
+              <![CDATA[java.lang.AssertionError: CAN'T ENTER ZERO!!! LENGTHS MUST BE POSITIVE NUMBERS
 at org.testng.Assert.fail(Assert.java:110)
-at task.TestNGFunctions.getArea(TestNGFunctions.java:21)
-at task.TestClassForFactory.getParallelogramArea(TestClassForFactory.java:32)
+at task.TestNGAssert.TestNGZeroMsg(TestNGAssert.java:7)
+at task.ShapeFunctions.getArea(ShapeFunctions.java:30)
+at task.TestClassForFactory.getParallelogramArea(TestClassForFactory.java:31)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1132,11 +1145,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getParallelogramArea -->
-        <test-method signature="getParallelogramArea()[pri:0, instance:task.TestClassForFactory@384ad17b, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-03T19:46:01 IDT" name="getParallelogramArea" finished-at="2022-09-03T19:46:01 IDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getParallelogramArea -->
-        <test-method signature="getParallelogramArea()[pri:0, instance:task.TestClassForFactory@61862a7f, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-03T19:46:01 IDT" name="getParallelogramArea" finished-at="2022-09-03T19:46:01 IDT" duration-ms="0" status="FAIL">
+        <test-method signature="getParallelogramArea()[pri:0, instance:task.TestClassForFactory@441772e, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-04T14:26:19 IDT" name="getParallelogramArea" finished-at="2022-09-04T14:26:19 IDT" duration-ms="1" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[CAN'T ENTER NEGATIVE NUMBERS!!! LENGTHS MUST BE POSITIVE NUMBERS expected [0.0] but found [-4.0]]]>
@@ -1146,8 +1155,9 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
 at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertEquals(Assert.java:727)
-at task.TestNGFunctions.getArea(TestNGFunctions.java:72)
-at task.TestClassForFactory.getParallelogramArea(TestClassForFactory.java:32)
+at task.TestNGAssert.TestNGNegativeMsg(TestNGAssert.java:15)
+at task.ShapeFunctions.getArea(ShapeFunctions.java:85)
+at task.TestClassForFactory.getParallelogramArea(TestClassForFactory.java:31)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1186,55 +1196,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getParallelogramArea -->
-        <test-method signature="getParallelogramArea()[pri:0, instance:task.TestClassForFactory@dbf57b3, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-03T19:46:01 IDT" name="getParallelogramArea" finished-at="2022-09-03T19:46:01 IDT" duration-ms="1" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[CAN'T ENTER ZERO!!! LENGTHS MUST BE POSITIVE NUMBERS]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: CAN'T ENTER ZERO!!! LENGTHS MUST BE POSITIVE NUMBERS
-at org.testng.Assert.fail(Assert.java:110)
-at task.TestNGFunctions.getArea(TestNGFunctions.java:19)
-at task.TestClassForFactory.getParallelogramArea(TestClassForFactory.java:32)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="getParallelogramArea()[pri:0, instance:task.TestClassForFactory@61862a7f, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-04T14:26:19 IDT" name="getParallelogramArea" finished-at="2022-09-04T14:26:19 IDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getParallelogramArea -->
-        <test-method signature="getRectangleArea()[pri:0, instance:task.TestClassForFactory@123ef382, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-03T19:46:01 IDT" name="getRectangleArea" finished-at="2022-09-03T19:46:01 IDT" duration-ms="0" status="FAIL">
+        <test-method signature="getParallelogramArea()[pri:0, instance:task.TestClassForFactory@dbf57b3, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-04T14:26:19 IDT" name="getParallelogramArea" finished-at="2022-09-04T14:26:19 IDT" duration-ms="0" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[CAN'T ENTER STRING!!! LENGTHS MUST BE POSITIVE NUMBERS]]>
@@ -1242,8 +1208,58 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: CAN'T ENTER STRING!!! LENGTHS MUST BE POSITIVE NUMBERS
 at org.testng.Assert.fail(Assert.java:110)
-at task.TestNGFunctions.getArea(TestNGFunctions.java:21)
-at task.TestClassForFactory.getRectangleArea(TestClassForFactory.java:37)
+at task.TestNGAssert.TestNGStringMsg(TestNGAssert.java:11)
+at task.ShapeFunctions.getArea(ShapeFunctions.java:33)
+at task.TestClassForFactory.getParallelogramArea(TestClassForFactory.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getParallelogramArea -->
+        <test-method signature="getRectangleArea()[pri:0, instance:task.TestClassForFactory@384ad17b, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-04T14:26:19 IDT" name="getRectangleArea" finished-at="2022-09-04T14:26:19 IDT" duration-ms="0" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[CAN'T ENTER ZERO!!! LENGTHS MUST BE POSITIVE NUMBERS]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: CAN'T ENTER ZERO!!! LENGTHS MUST BE POSITIVE NUMBERS
+at org.testng.Assert.fail(Assert.java:110)
+at task.TestNGAssert.TestNGZeroMsg(TestNGAssert.java:7)
+at task.ShapeFunctions.getArea(ShapeFunctions.java:30)
+at task.TestClassForFactory.getRectangleArea(TestClassForFactory.java:36)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1282,11 +1298,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getRectangleArea -->
-        <test-method signature="getRectangleArea()[pri:0, instance:task.TestClassForFactory@384ad17b, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-03T19:46:01 IDT" name="getRectangleArea" finished-at="2022-09-03T19:46:01 IDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getRectangleArea -->
-        <test-method signature="getRectangleArea()[pri:0, instance:task.TestClassForFactory@61862a7f, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-03T19:46:01 IDT" name="getRectangleArea" finished-at="2022-09-03T19:46:01 IDT" duration-ms="1" status="FAIL">
+        <test-method signature="getRectangleArea()[pri:0, instance:task.TestClassForFactory@441772e, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-04T14:26:19 IDT" name="getRectangleArea" finished-at="2022-09-04T14:26:19 IDT" duration-ms="1" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[CAN'T ENTER NEGATIVE NUMBERS!!! LENGTHS MUST BE POSITIVE NUMBERS expected [0.0] but found [-4.0]]]>
@@ -1296,8 +1308,9 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
 at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertEquals(Assert.java:727)
-at task.TestNGFunctions.getArea(TestNGFunctions.java:72)
-at task.TestClassForFactory.getRectangleArea(TestClassForFactory.java:37)
+at task.TestNGAssert.TestNGNegativeMsg(TestNGAssert.java:15)
+at task.ShapeFunctions.getArea(ShapeFunctions.java:85)
+at task.TestClassForFactory.getRectangleArea(TestClassForFactory.java:36)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1336,87 +1349,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getRectangleArea -->
-        <test-method signature="getRectangleArea()[pri:0, instance:task.TestClassForFactory@dbf57b3, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-03T19:46:01 IDT" name="getRectangleArea" finished-at="2022-09-03T19:46:01 IDT" duration-ms="1" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[CAN'T ENTER ZERO!!! LENGTHS MUST BE POSITIVE NUMBERS]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: CAN'T ENTER ZERO!!! LENGTHS MUST BE POSITIVE NUMBERS
-at org.testng.Assert.fail(Assert.java:110)
-at task.TestNGFunctions.getArea(TestNGFunctions.java:19)
-at task.TestClassForFactory.getRectangleArea(TestClassForFactory.java:37)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="getRectangleArea()[pri:0, instance:task.TestClassForFactory@61862a7f, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-04T14:26:19 IDT" name="getRectangleArea" finished-at="2022-09-04T14:26:19 IDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getRectangleArea -->
-        <test-method signature="getSectorArea()[pri:0, instance:task.TestClassForFactory@123ef382, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-03T19:46:01 IDT" name="getSectorArea" finished-at="2022-09-03T19:46:01 IDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getSectorArea -->
-        <test-method signature="getSectorArea()[pri:0, instance:task.TestClassForFactory@384ad17b, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-03T19:46:01 IDT" name="getSectorArea" finished-at="2022-09-03T19:46:01 IDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getSectorArea -->
-        <test-method signature="getSectorArea()[pri:0, instance:task.TestClassForFactory@61862a7f, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-03T19:46:01 IDT" name="getSectorArea" finished-at="2022-09-03T19:46:01 IDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getSectorArea -->
-        <test-method signature="getSectorArea()[pri:0, instance:task.TestClassForFactory@dbf57b3, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-03T19:46:01 IDT" name="getSectorArea" finished-at="2022-09-03T19:46:01 IDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getSectorArea -->
-        <test-method signature="getSquareArea()[pri:0, instance:task.TestClassForFactory@123ef382, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-03T19:46:01 IDT" name="getSquareArea" finished-at="2022-09-03T19:46:01 IDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getSquareArea -->
-        <test-method signature="getSquareArea()[pri:0, instance:task.TestClassForFactory@384ad17b, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-03T19:46:01 IDT" name="getSquareArea" finished-at="2022-09-03T19:46:01 IDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getSquareArea -->
-        <test-method signature="getSquareArea()[pri:0, instance:task.TestClassForFactory@61862a7f, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-03T19:46:01 IDT" name="getSquareArea" finished-at="2022-09-03T19:46:01 IDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getSquareArea -->
-        <test-method signature="getSquareArea()[pri:0, instance:task.TestClassForFactory@dbf57b3, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-03T19:46:01 IDT" name="getSquareArea" finished-at="2022-09-03T19:46:01 IDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getSquareArea -->
-        <test-method signature="getTrapezoidArea()[pri:0, instance:task.TestClassForFactory@123ef382, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-03T19:46:01 IDT" name="getTrapezoidArea" finished-at="2022-09-03T19:46:01 IDT" duration-ms="0" status="FAIL">
+        <test-method signature="getRectangleArea()[pri:0, instance:task.TestClassForFactory@dbf57b3, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-04T14:26:19 IDT" name="getRectangleArea" finished-at="2022-09-04T14:26:19 IDT" duration-ms="0" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[CAN'T ENTER STRING!!! LENGTHS MUST BE POSITIVE NUMBERS]]>
@@ -1424,8 +1361,90 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: CAN'T ENTER STRING!!! LENGTHS MUST BE POSITIVE NUMBERS
 at org.testng.Assert.fail(Assert.java:110)
-at task.TestNGFunctions.getArea(TestNGFunctions.java:21)
-at task.TestClassForFactory.getTrapezoidArea(TestClassForFactory.java:52)
+at task.TestNGAssert.TestNGStringMsg(TestNGAssert.java:11)
+at task.ShapeFunctions.getArea(ShapeFunctions.java:33)
+at task.TestClassForFactory.getRectangleArea(TestClassForFactory.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRectangleArea -->
+        <test-method signature="getSectorArea()[pri:0, instance:task.TestClassForFactory@441772e, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-04T14:26:19 IDT" name="getSectorArea" finished-at="2022-09-04T14:26:19 IDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSectorArea -->
+        <test-method signature="getSectorArea()[pri:0, instance:task.TestClassForFactory@384ad17b, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-04T14:26:19 IDT" name="getSectorArea" finished-at="2022-09-04T14:26:19 IDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSectorArea -->
+        <test-method signature="getSectorArea()[pri:0, instance:task.TestClassForFactory@61862a7f, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-04T14:26:19 IDT" name="getSectorArea" finished-at="2022-09-04T14:26:19 IDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSectorArea -->
+        <test-method signature="getSectorArea()[pri:0, instance:task.TestClassForFactory@dbf57b3, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-04T14:26:19 IDT" name="getSectorArea" finished-at="2022-09-04T14:26:19 IDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSectorArea -->
+        <test-method signature="getSquareArea()[pri:0, instance:task.TestClassForFactory@384ad17b, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-04T14:26:19 IDT" name="getSquareArea" finished-at="2022-09-04T14:26:19 IDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSquareArea -->
+        <test-method signature="getSquareArea()[pri:0, instance:task.TestClassForFactory@441772e, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-04T14:26:19 IDT" name="getSquareArea" finished-at="2022-09-04T14:26:19 IDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSquareArea -->
+        <test-method signature="getSquareArea()[pri:0, instance:task.TestClassForFactory@61862a7f, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-04T14:26:19 IDT" name="getSquareArea" finished-at="2022-09-04T14:26:19 IDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSquareArea -->
+        <test-method signature="getSquareArea()[pri:0, instance:task.TestClassForFactory@dbf57b3, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-04T14:26:19 IDT" name="getSquareArea" finished-at="2022-09-04T14:26:19 IDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSquareArea -->
+        <test-method signature="getTrapezoidArea()[pri:0, instance:task.TestClassForFactory@384ad17b, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-04T14:26:19 IDT" name="getTrapezoidArea" finished-at="2022-09-04T14:26:19 IDT" duration-ms="2" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[CAN'T ENTER ZERO!!! LENGTHS MUST BE POSITIVE NUMBERS]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: CAN'T ENTER ZERO!!! LENGTHS MUST BE POSITIVE NUMBERS
+at org.testng.Assert.fail(Assert.java:110)
+at task.TestNGAssert.TestNGZeroMsg(TestNGAssert.java:7)
+at task.ShapeFunctions.getArea(ShapeFunctions.java:30)
+at task.TestClassForFactory.getTrapezoidArea(TestClassForFactory.java:51)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1464,11 +1483,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTrapezoidArea -->
-        <test-method signature="getTrapezoidArea()[pri:0, instance:task.TestClassForFactory@384ad17b, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-03T19:46:01 IDT" name="getTrapezoidArea" finished-at="2022-09-03T19:46:01 IDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getTrapezoidArea -->
-        <test-method signature="getTrapezoidArea()[pri:0, instance:task.TestClassForFactory@61862a7f, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-03T19:46:01 IDT" name="getTrapezoidArea" finished-at="2022-09-03T19:46:01 IDT" duration-ms="0" status="FAIL">
+        <test-method signature="getTrapezoidArea()[pri:0, instance:task.TestClassForFactory@441772e, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-04T14:26:19 IDT" name="getTrapezoidArea" finished-at="2022-09-04T14:26:19 IDT" duration-ms="1" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[CAN'T ENTER NEGATIVE NUMBERS!!! LENGTHS MUST BE POSITIVE NUMBERS expected [0.0] but found [2.0]]]>
@@ -1478,8 +1493,9 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
 at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertEquals(Assert.java:727)
-at task.TestNGFunctions.getArea(TestNGFunctions.java:72)
-at task.TestClassForFactory.getTrapezoidArea(TestClassForFactory.java:52)
+at task.TestNGAssert.TestNGNegativeMsg(TestNGAssert.java:15)
+at task.ShapeFunctions.getArea(ShapeFunctions.java:85)
+at task.TestClassForFactory.getTrapezoidArea(TestClassForFactory.java:51)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1518,55 +1534,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTrapezoidArea -->
-        <test-method signature="getTrapezoidArea()[pri:0, instance:task.TestClassForFactory@dbf57b3, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-03T19:46:01 IDT" name="getTrapezoidArea" finished-at="2022-09-03T19:46:01 IDT" duration-ms="0" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[CAN'T ENTER ZERO!!! LENGTHS MUST BE POSITIVE NUMBERS]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: CAN'T ENTER ZERO!!! LENGTHS MUST BE POSITIVE NUMBERS
-at org.testng.Assert.fail(Assert.java:110)
-at task.TestNGFunctions.getArea(TestNGFunctions.java:19)
-at task.TestClassForFactory.getTrapezoidArea(TestClassForFactory.java:52)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="getTrapezoidArea()[pri:0, instance:task.TestClassForFactory@61862a7f, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-04T14:26:19 IDT" name="getTrapezoidArea" finished-at="2022-09-04T14:26:19 IDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTrapezoidArea -->
-        <test-method signature="getTriangleArea()[pri:0, instance:task.TestClassForFactory@123ef382, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-03T19:46:01 IDT" name="getTriangleArea" finished-at="2022-09-03T19:46:01 IDT" duration-ms="0" status="FAIL">
+        <test-method signature="getTrapezoidArea()[pri:0, instance:task.TestClassForFactory@dbf57b3, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-04T14:26:19 IDT" name="getTrapezoidArea" finished-at="2022-09-04T14:26:19 IDT" duration-ms="0" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[CAN'T ENTER STRING!!! LENGTHS MUST BE POSITIVE NUMBERS]]>
@@ -1574,8 +1546,58 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: CAN'T ENTER STRING!!! LENGTHS MUST BE POSITIVE NUMBERS
 at org.testng.Assert.fail(Assert.java:110)
-at task.TestNGFunctions.getArea(TestNGFunctions.java:21)
-at task.TestClassForFactory.getTriangleArea(TestClassForFactory.java:57)
+at task.TestNGAssert.TestNGStringMsg(TestNGAssert.java:11)
+at task.ShapeFunctions.getArea(ShapeFunctions.java:33)
+at task.TestClassForFactory.getTrapezoidArea(TestClassForFactory.java:51)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTrapezoidArea -->
+        <test-method signature="getTriangleArea()[pri:0, instance:task.TestClassForFactory@384ad17b, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-04T14:26:19 IDT" name="getTriangleArea" finished-at="2022-09-04T14:26:19 IDT" duration-ms="0" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[CAN'T ENTER ZERO!!! LENGTHS MUST BE POSITIVE NUMBERS]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: CAN'T ENTER ZERO!!! LENGTHS MUST BE POSITIVE NUMBERS
+at org.testng.Assert.fail(Assert.java:110)
+at task.TestNGAssert.TestNGZeroMsg(TestNGAssert.java:7)
+at task.ShapeFunctions.getArea(ShapeFunctions.java:30)
+at task.TestClassForFactory.getTriangleArea(TestClassForFactory.java:56)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1614,11 +1636,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTriangleArea -->
-        <test-method signature="getTriangleArea()[pri:0, instance:task.TestClassForFactory@384ad17b, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-03T19:46:01 IDT" name="getTriangleArea" finished-at="2022-09-03T19:46:01 IDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getTriangleArea -->
-        <test-method signature="getTriangleArea()[pri:0, instance:task.TestClassForFactory@61862a7f, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-03T19:46:01 IDT" name="getTriangleArea" finished-at="2022-09-03T19:46:01 IDT" duration-ms="0" status="FAIL">
+        <test-method signature="getTriangleArea()[pri:0, instance:task.TestClassForFactory@441772e, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-04T14:26:19 IDT" name="getTriangleArea" finished-at="2022-09-04T14:26:19 IDT" duration-ms="1" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[CAN'T ENTER NEGATIVE NUMBERS!!! LENGTHS MUST BE POSITIVE NUMBERS expected [0.0] but found [-2.0]]]>
@@ -1628,8 +1646,9 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
 at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertEquals(Assert.java:727)
-at task.TestNGFunctions.getArea(TestNGFunctions.java:72)
-at task.TestClassForFactory.getTriangleArea(TestClassForFactory.java:57)
+at task.TestNGAssert.TestNGNegativeMsg(TestNGAssert.java:15)
+at task.ShapeFunctions.getArea(ShapeFunctions.java:85)
+at task.TestClassForFactory.getTriangleArea(TestClassForFactory.java:56)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1668,16 +1687,21 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTriangleArea -->
-        <test-method signature="getTriangleArea()[pri:0, instance:task.TestClassForFactory@dbf57b3, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-03T19:46:01 IDT" name="getTriangleArea" finished-at="2022-09-03T19:46:01 IDT" duration-ms="0" status="FAIL">
+        <test-method signature="getTriangleArea()[pri:0, instance:task.TestClassForFactory@61862a7f, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-04T14:26:19 IDT" name="getTriangleArea" finished-at="2022-09-04T14:26:19 IDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTriangleArea -->
+        <test-method signature="getTriangleArea()[pri:0, instance:task.TestClassForFactory@dbf57b3, instance params:[./src/files/ParamTask.csv]]" started-at="2022-09-04T14:26:19 IDT" name="getTriangleArea" finished-at="2022-09-04T14:26:19 IDT" duration-ms="1" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[CAN'T ENTER ZERO!!! LENGTHS MUST BE POSITIVE NUMBERS]]>
+              <![CDATA[CAN'T ENTER STRING!!! LENGTHS MUST BE POSITIVE NUMBERS]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: CAN'T ENTER ZERO!!! LENGTHS MUST BE POSITIVE NUMBERS
+              <![CDATA[java.lang.AssertionError: CAN'T ENTER STRING!!! LENGTHS MUST BE POSITIVE NUMBERS
 at org.testng.Assert.fail(Assert.java:110)
-at task.TestNGFunctions.getArea(TestNGFunctions.java:19)
-at task.TestClassForFactory.getTriangleArea(TestClassForFactory.java:57)
+at task.TestNGAssert.TestNGStringMsg(TestNGAssert.java:11)
+at task.ShapeFunctions.getArea(ShapeFunctions.java:33)
+at task.TestClassForFactory.getTriangleArea(TestClassForFactory.java:56)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

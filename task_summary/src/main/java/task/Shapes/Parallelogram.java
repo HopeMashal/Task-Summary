@@ -1,4 +1,4 @@
-package task;
+package task.Shapes;
 
 public class Parallelogram extends ParaRectTri {
 

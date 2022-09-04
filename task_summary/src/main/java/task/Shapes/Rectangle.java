@@ -1,4 +1,4 @@
-package task;
+package task.Shapes;
 
 public class Rectangle extends ParaRectTri {
 

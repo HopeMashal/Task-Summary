@@ -1,5 +1,14 @@
 package task;
 
+import task.Shapes.Circle;
+import task.Shapes.Ellipse;
+import task.Shapes.Parallelogram;
+import task.Shapes.Rectangle;
+import task.Shapes.Sector;
+import task.Shapes.Square;
+import task.Shapes.Trapezoid;
+import task.Shapes.Triangle;
+
 public class App 
 {
     public static void main( String[] args )

@@ -1,6 +1,6 @@
 package task;
 
-import static task.TestNGFunctions.getArea;
+import static task.ShapeFunctions.getArea;
 
 import java.lang.reflect.Method;
 import java.util.List;
@@ -81,41 +81,41 @@ public class AppTestNGTest {
 
   @Test(dataProvider = "input")
   public void getCircleArea(String RadiusA){
-    getArea(new String[] {RadiusA}, "Circle");
+    getArea(new String[] {RadiusA}, "Circle","TestNG");
   }
 
   @Test(dataProvider = "input")
   public void getEllipseArea(String RadiusA,String RadiusB){
-    getArea(new String[] {RadiusA,RadiusB}, "Ellipse");
+    getArea(new String[] {RadiusA,RadiusB}, "Ellipse","TestNG");
   }
 
   @Test(dataProvider = "input")
   public void getParallelogramArea(String BaseA,String Height){
-    getArea(new String[] {BaseA,Height}, "Parallelogram");
+    getArea(new String[] {BaseA,Height}, "Parallelogram","TestNG");
   }
 
   @Test(dataProvider = "input")
   public void getRectangleArea(String BaseA,String Height){
-    getArea(new String[] {BaseA,Height}, "Rectangle");
+    getArea(new String[] {BaseA,Height}, "Rectangle","TestNG");
   }
 
   @Test(dataProvider = "input")
   public void getSectorArea(String AngleDeg,String RadiusA){
-    getArea(new String[] {RadiusA,AngleDeg}, "Sector");
+    getArea(new String[] {RadiusA,AngleDeg}, "Sector","TestNG");
   }
 
   @Test(dataProvider = "input")
   public void getSquareArea(String Height){
-    getArea(new String[] {Height}, "Square");
+    getArea(new String[] {Height}, "Square","TestNG");
   }
 
   @Test(dataProvider = "input")
   public void getTrapezoidArea(String BaseA,String BaseB,String Height){
-    getArea(new String[] {BaseA,BaseB,Height}, "Trapezoid");
+    getArea(new String[] {BaseA,BaseB,Height}, "Trapezoid","TestNG");
   }
 
   @Test(dataProvider = "input")
   public void getTriangleArea(String BaseA,String Height){
-    getArea(new String[] {BaseA,Height}, "Triangle");
+    getArea(new String[] {BaseA,Height}, "Triangle","TestNG");
   }
 }
